@@ -2,2311 +2,2305 @@
   {
     "date": "2016-10-30",
     "time": "09:58:11",
-    "transaction": 1,
-    "item": "Bread"
+    "sold": 1,
+    "food": "Bread"
   },
   {
     "date": "2016-10-30",
     "time": "10:05:34",
-    "transaction": 2,
-    "item": "Scandinavian"
+    "sold": 2,
+    "food": "Scandinavian"
   },
   {
     "date": "2016-10-30",
     "time": "10:05:34",
-    "transaction": 2,
-    "item": "Scandinavian"
+    "sold": 2,
+    "food": "Scandinavian"
   },
   {
     "date": "2016-10-30",
     "time": "10:07:57",
-    "transaction": 3,
-    "item": "Hot chocolate"
+    "sold": 3,
+    "food": "Hot chocolate"
   },
   {
     "date": "2016-10-30",
     "time": "10:07:57",
-    "transaction": 3,
-    "item": "Jam"
+    "sold": 3,
+    "food": "Jam"
   },
   {
     "date": "2016-10-30",
     "time": "10:07:57",
-    "transaction": 3,
-    "item": "Cookies"
+    "sold": 3,
+    "food": "Cookies"
   },
   {
     "date": "2016-10-30",
     "time": "10:08:41",
-    "transaction": 4,
-    "item": "Muffin"
+    "sold": 4,
+    "food": "Muffin"
   },
   {
     "date": "2016-10-30",
     "time": "10:13:03",
-    "transaction": 5,
-    "item": "Coffee"
+    "sold": 5,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-30",
     "time": "10:13:03",
-    "transaction": 5,
-    "item": "Pastry"
+    "sold": 5,
+    "food": "Pastry"
   },
   {
     "date": "2016-10-30",
     "time": "10:13:03",
-    "transaction": 5,
-    "item": "Bread"
+    "sold": 5,
+    "food": "Bread"
   },
   {
     "date": "2016-10-30",
     "time": "10:16:55",
-    "transaction": 6,
-    "item": "Medialuna"
+    "sold": 6,
+    "food": "Medialuna"
   },
   {
     "date": "2016-10-30",
     "time": "10:16:55",
-    "transaction": 6,
-    "item": "Pastry"
+    "sold": 6,
+    "food": "Pastry"
   },
   {
     "date": "2016-10-30",
     "time": "10:16:55",
-    "transaction": 6,
-    "item": "Muffin"
+    "sold": 6,
+    "food": "Muffin"
   },
   {
     "date": "2016-10-30",
     "time": "10:19:12",
-    "transaction": 7,
-    "item": "Medialuna"
+    "sold": 7,
+    "food": "Medialuna"
   },
   {
     "date": "2016-10-30",
     "time": "10:19:12",
-    "transaction": 7,
-    "item": "Pastry"
+    "sold": 7,
+    "food": "Pastry"
   },
   {
     "date": "2016-10-30",
     "time": "10:19:12",
-    "transaction": 7,
-    "item": "Coffee"
+    "sold": 7,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-30",
     "time": "10:19:12",
-    "transaction": 7,
-    "item": "Tea"
+    "sold": 7,
+    "food": "Tea"
   },
   {
     "date": "2016-10-30",
     "time": "10:20:51",
-    "transaction": 8,
-    "item": "Pastry"
+    "sold": 8,
+    "food": "Pastry"
   },
   {
     "date": "2016-10-30",
     "time": "10:20:51",
-    "transaction": 8,
-    "item": "Bread"
+    "sold": 8,
+    "food": "Bread"
   },
   {
     "date": "2016-10-30",
     "time": "10:21:59",
-    "transaction": 9,
-    "item": "Bread"
+    "sold": 9,
+    "food": "Bread"
   },
   {
     "date": "2016-10-30",
     "time": "10:21:59",
-    "transaction": 9,
-    "item": "Muffin"
+    "sold": 9,
+    "food": "Muffin"
   },
   {
     "date": "2016-10-30",
     "time": "10:25:58",
-    "transaction": 10,
-    "item": "Scandinavian"
+    "sold": 10,
+    "food": "Scandinavian"
   },
   {
     "date": "2016-10-30",
     "time": "10:25:58",
-    "transaction": 10,
-    "item": "Medialuna"
+    "sold": 10,
+    "food": "Medialuna"
   },
   {
     "date": "2016-10-30",
     "time": "10:27:21",
-    "transaction": 11,
-    "item": "Bread"
+    "sold": 11,
+    "food": "Bread"
   },
   {
     "date": "2016-10-30",
     "time": "10:27:21",
-    "transaction": 11,
-    "item": "Medialuna"
+    "sold": 11,
+    "food": "Medialuna"
   },
   {
     "date": "2016-10-30",
     "time": "10:27:21",
-    "transaction": 11,
-    "item": "Bread"
+    "sold": 11,
+    "food": "Bread"
   },
   {
     "date": "2016-10-30",
     "time": "10:27:21",
-    "transaction": 11,
-    "item": "NONE"
+    "sold": 11,
+    "food": "NONE"
   },
   {
     "date": "2016-10-30",
     "time": "10:30:14",
-    "transaction": 12,
-    "item": "Jam"
+    "sold": 12,
+    "food": "Jam"
   },
   {
     "date": "2016-10-30",
     "time": "10:30:14",
-    "transaction": 12,
-    "item": "Coffee"
+    "sold": 12,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-30",
     "time": "10:30:14",
-    "transaction": 12,
-    "item": "Tartine"
+    "sold": 12,
+    "food": "Tartine"
   },
   {
     "date": "2016-10-30",
     "time": "10:30:14",
-    "transaction": 12,
-    "item": "Pastry"
+    "sold": 12,
+    "food": "Pastry"
   },
   {
     "date": "2016-10-30",
     "time": "10:30:14",
-    "transaction": 12,
-    "item": "Tea"
+    "sold": 12,
+    "food": "Tea"
   },
   {
     "date": "2016-10-30",
     "time": "10:31:24",
-    "transaction": 13,
-    "item": "Basket"
+    "sold": 13,
+    "food": "Basket"
   },
   {
     "date": "2016-10-30",
     "time": "10:31:24",
-    "transaction": 13,
-    "item": "Bread"
+    "sold": 13,
+    "food": "Bread"
   },
   {
     "date": "2016-10-30",
     "time": "10:31:24",
-    "transaction": 13,
-    "item": "Coffee"
+    "sold": 13,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-30",
     "time": "10:32:46",
-    "transaction": 14,
-    "item": "Bread"
+    "sold": 14,
+    "food": "Bread"
   },
   {
     "date": "2016-10-30",
     "time": "10:32:46",
-    "transaction": 14,
-    "item": "Medialuna"
+    "sold": 14,
+    "food": "Medialuna"
   },
   {
     "date": "2016-10-30",
     "time": "10:32:46",
-    "transaction": 14,
-    "item": "Pastry"
+    "sold": 14,
+    "food": "Pastry"
   },
   {
     "date": "2016-10-30",
     "time": "10:34:36",
-    "transaction": 15,
-    "item": "NONE"
+    "sold": 15,
+    "food": "NONE"
   },
   {
     "date": "2016-10-30",
     "time": "10:34:36",
-    "transaction": 15,
-    "item": "NONE"
+    "sold": 15,
+    "food": "NONE"
   },
   {
     "date": "2016-10-30",
     "time": "10:34:36",
-    "transaction": 15,
-    "item": "Mineral water"
+    "sold": 15,
+    "food": "Mineral water"
   },
   {
     "date": "2016-10-30",
     "time": "10:34:36",
-    "transaction": 15,
-    "item": "Scandinavian"
+    "sold": 15,
+    "food": "Scandinavian"
   },
   {
     "date": "2016-10-30",
     "time": "10:37:08",
-    "transaction": 16,
-    "item": "Bread"
+    "sold": 16,
+    "food": "Bread"
   },
   {
     "date": "2016-10-30",
     "time": "10:37:08",
-    "transaction": 16,
-    "item": "Medialuna"
+    "sold": 16,
+    "food": "Medialuna"
   },
   {
     "date": "2016-10-30",
     "time": "10:37:08",
-    "transaction": 16,
-    "item": "Coffee"
+    "sold": 16,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-30",
     "time": "10:38:04",
-    "transaction": 17,
-    "item": "Hot chocolate"
+    "sold": 17,
+    "food": "Hot chocolate"
   },
   {
     "date": "2016-10-30",
     "time": "10:41:56",
-    "transaction": 18,
-    "item": "Farm House"
+    "sold": 18,
+    "food": "Farm House"
   },
   {
     "date": "2016-10-30",
     "time": "10:43:08",
-    "transaction": 19,
-    "item": "Farm House"
+    "sold": 19,
+    "food": "Farm House"
   },
   {
     "date": "2016-10-30",
     "time": "10:43:08",
-    "transaction": 19,
-    "item": "Bread"
+    "sold": 19,
+    "food": "Bread"
   },
   {
     "date": "2016-10-30",
     "time": "10:45:22",
-    "transaction": 20,
-    "item": "Bread"
+    "sold": 20,
+    "food": "Bread"
   },
   {
     "date": "2016-10-30",
     "time": "10:45:22",
-    "transaction": 20,
-    "item": "Medialuna"
+    "sold": 20,
+    "food": "Medialuna"
   },
   {
     "date": "2016-10-30",
     "time": "10:49:29",
-    "transaction": 21,
-    "item": "Coffee"
+    "sold": 21,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-30",
     "time": "10:49:29",
-    "transaction": 21,
-    "item": "Coffee"
+    "sold": 21,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-30",
     "time": "10:49:29",
-    "transaction": 21,
-    "item": "Medialuna"
+    "sold": 21,
+    "food": "Medialuna"
   },
   {
     "date": "2016-10-30",
     "time": "10:49:29",
-    "transaction": 21,
-    "item": "Bread"
+    "sold": 21,
+    "food": "Bread"
   },
   {
     "date": "2016-10-30",
     "time": "10:52:15",
-    "transaction": 22,
-    "item": "Jam"
+    "sold": 22,
+    "food": "Jam"
   },
   {
     "date": "2016-10-30",
     "time": "10:53:49",
-    "transaction": 23,
-    "item": "Scandinavian"
+    "sold": 23,
+    "food": "Scandinavian"
   },
   {
     "date": "2016-10-30",
     "time": "10:53:49",
-    "transaction": 23,
-    "item": "Muffin"
+    "sold": 23,
+    "food": "Muffin"
   },
   {
     "date": "2016-10-30",
     "time": "10:54:33",
-    "transaction": 24,
-    "item": "Bread"
+    "sold": 24,
+    "food": "Bread"
   },
   {
     "date": "2016-10-30",
     "time": "10:55:22",
-    "transaction": 25,
-    "item": "Scandinavian"
+    "sold": 25,
+    "food": "Scandinavian"
   },
   {
     "date": "2016-10-30",
     "time": "10:56:08",
-    "transaction": 26,
-    "item": "Fudge"
+    "sold": 26,
+    "food": "Fudge"
   },
   {
     "date": "2016-10-30",
     "time": "11:02:19",
-    "transaction": 27,
-    "item": "Scandinavian"
+    "sold": 27,
+    "food": "Scandinavian"
   },
   {
     "date": "2016-10-30",
     "time": "11:03:24",
-    "transaction": 28,
-    "item": "Coffee"
+    "sold": 28,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-30",
     "time": "11:03:24",
-    "transaction": 28,
-    "item": "Bread"
+    "sold": 28,
+    "food": "Bread"
   },
   {
     "date": "2016-10-30",
     "time": "11:05:30",
-    "transaction": 29,
-    "item": "Bread"
+    "sold": 29,
+    "food": "Bread"
   },
   {
     "date": "2016-10-30",
     "time": "11:05:30",
-    "transaction": 29,
-    "item": "Jam"
+    "sold": 29,
+    "food": "Jam"
   },
   {
     "date": "2016-10-30",
     "time": "11:05:30",
-    "transaction": 29,
-    "item": "NONE"
+    "sold": 29,
+    "food": "NONE"
   },
   {
     "date": "2016-10-30",
     "time": "11:07:19",
-    "transaction": 30,
-    "item": "Bread"
+    "sold": 30,
+    "food": "Bread"
   },
   {
     "date": "2016-10-30",
     "time": "11:12:56",
-    "transaction": 31,
-    "item": "Basket"
+    "sold": 31,
+    "food": "Basket"
   },
   {
     "date": "2016-10-30",
     "time": "11:16:15",
-    "transaction": 32,
-    "item": "Scandinavian"
+    "sold": 32,
+    "food": "Scandinavian"
   },
   {
     "date": "2016-10-30",
     "time": "11:16:15",
-    "transaction": 32,
-    "item": "Muffin"
+    "sold": 32,
+    "food": "Muffin"
   },
   {
     "date": "2016-10-30",
     "time": "11:22:49",
-    "transaction": 33,
-    "item": "Coffee"
+    "sold": 33,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-30",
     "time": "11:25:45",
-    "transaction": 34,
-    "item": "Coffee"
+    "sold": 34,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-30",
     "time": "11:25:45",
-    "transaction": 34,
-    "item": "Muffin"
+    "sold": 34,
+    "food": "Muffin"
   },
   {
     "date": "2016-10-30",
     "time": "11:27:34",
-    "transaction": 35,
-    "item": "Muffin"
+    "sold": 35,
+    "food": "Muffin"
   },
   {
     "date": "2016-10-30",
     "time": "11:27:34",
-    "transaction": 35,
-    "item": "Scandinavian"
+    "sold": 35,
+    "food": "Scandinavian"
   },
   {
     "date": "2016-10-30",
     "time": "11:33:08",
-    "transaction": 36,
-    "item": "Tea"
+    "sold": 36,
+    "food": "Tea"
   },
   {
     "date": "2016-10-30",
     "time": "11:33:08",
-    "transaction": 36,
-    "item": "Bread"
+    "sold": 36,
+    "food": "Bread"
   },
   {
     "date": "2016-10-30",
     "time": "11:37:10",
-    "transaction": 37,
-    "item": "Coffee"
+    "sold": 37,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-30",
     "time": "11:37:10",
-    "transaction": 37,
-    "item": "Bread"
+    "sold": 37,
+    "food": "Bread"
   },
   {
     "date": "2016-10-30",
     "time": "11:37:10",
-    "transaction": 37,
-    "item": "NONE"
+    "sold": 37,
+    "food": "NONE"
   },
   {
     "date": "2016-10-30",
     "time": "11:42:40",
-    "transaction": 38,
-    "item": "Bread"
+    "sold": 38,
+    "food": "Bread"
   },
   {
     "date": "2016-10-30",
     "time": "11:42:40",
-    "transaction": 38,
-    "item": "Tea"
+    "sold": 38,
+    "food": "Tea"
   },
   {
     "date": "2016-10-30",
     "time": "11:44:31",
-    "transaction": 39,
-    "item": "Scandinavian"
+    "sold": 39,
+    "food": "Scandinavian"
   },
   {
     "date": "2016-10-30",
     "time": "11:55:51",
-    "transaction": 40,
-    "item": "Juice"
+    "sold": 40,
+    "food": "Juice"
   },
   {
     "date": "2016-10-30",
     "time": "11:55:51",
-    "transaction": 40,
-    "item": "NONE"
+    "sold": 40,
+    "food": "NONE"
   },
   {
     "date": "2016-10-30",
     "time": "11:55:51",
-    "transaction": 40,
-    "item": "Tartine"
+    "sold": 40,
+    "food": "Tartine"
   },
   {
     "date": "2016-10-30",
     "time": "11:55:51",
-    "transaction": 40,
-    "item": "Coffee"
+    "sold": 40,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-30",
     "time": "11:55:51",
-    "transaction": 40,
-    "item": "Muffin"
+    "sold": 40,
+    "food": "Muffin"
   },
   {
     "date": "2016-10-30",
     "time": "11:57:06",
-    "transaction": 41,
-    "item": "Scandinavian"
+    "sold": 41,
+    "food": "Scandinavian"
   },
   {
     "date": "2016-10-30",
     "time": "11:57:45",
-    "transaction": 42,
-    "item": "Bread"
+    "sold": 42,
+    "food": "Bread"
   },
   {
     "date": "2016-10-30",
     "time": "11:57:45",
-    "transaction": 42,
-    "item": "Tea"
+    "sold": 42,
+    "food": "Tea"
   },
   {
     "date": "2016-10-30",
     "time": "12:00:22",
-    "transaction": 43,
-    "item": "Scandinavian"
+    "sold": 43,
+    "food": "Scandinavian"
   },
   {
     "date": "2016-10-30",
     "time": "12:00:22",
-    "transaction": 43,
-    "item": "Fudge"
+    "sold": 43,
+    "food": "Fudge"
   },
   {
     "date": "2016-10-30",
     "time": "12:05:47",
-    "transaction": 44,
-    "item": "Coffee"
+    "sold": 44,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-30",
     "time": "12:05:47",
-    "transaction": 44,
-    "item": "Medialuna"
+    "sold": 44,
+    "food": "Medialuna"
   },
   {
     "date": "2016-10-30",
     "time": "12:08:36",
-    "transaction": 45,
-    "item": "Coffee"
+    "sold": 45,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-30",
     "time": "12:08:36",
-    "transaction": 45,
-    "item": "Hot chocolate"
+    "sold": 45,
+    "food": "Hot chocolate"
   },
   {
     "date": "2016-10-30",
     "time": "12:08:36",
-    "transaction": 45,
-    "item": "Medialuna"
+    "sold": 45,
+    "food": "Medialuna"
   },
   {
     "date": "2016-10-30",
     "time": "12:09:04",
-    "transaction": 46,
-    "item": "Coffee"
+    "sold": 46,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-30",
     "time": "12:15:29",
-    "transaction": 47,
-    "item": "Ella's Kitchen Pouches"
+    "sold": 47,
+    "food": "Ella's Kitchen Pouches"
   },
   {
     "date": "2016-10-30",
     "time": "12:15:29",
-    "transaction": 47,
-    "item": "Juice"
+    "sold": 47,
+    "food": "Juice"
   },
   {
     "date": "2016-10-30",
     "time": "12:15:29",
-    "transaction": 47,
-    "item": "Bread"
+    "sold": 47,
+    "food": "Bread"
   },
   {
     "date": "2016-10-30",
     "time": "12:15:29",
-    "transaction": 47,
-    "item": "Muffin"
+    "sold": 47,
+    "food": "Muffin"
   },
   {
     "date": "2016-10-30",
     "time": "12:15:29",
-    "transaction": 47,
-    "item": "Jam"
+    "sold": 47,
+    "food": "Jam"
   },
   {
     "date": "2016-10-30",
     "time": "12:17:02",
-    "transaction": 48,
-    "item": "Coffee"
+    "sold": 48,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-30",
     "time": "12:23:01",
-    "transaction": 49,
-    "item": "Coffee"
+    "sold": 49,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-30",
     "time": "12:23:01",
-    "transaction": 49,
-    "item": "Coffee"
+    "sold": 49,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-30",
     "time": "12:23:01",
-    "transaction": 49,
-    "item": "Medialuna"
+    "sold": 49,
+    "food": "Medialuna"
   },
   {
     "date": "2016-10-30",
     "time": "12:25:11",
-    "transaction": 50,
-    "item": "Bread"
+    "sold": 50,
+    "food": "Bread"
   },
   {
     "date": "2016-10-30",
     "time": "12:25:11",
-    "transaction": 50,
-    "item": "Victorian Sponge"
+    "sold": 50,
+    "food": "Victorian Sponge"
   },
   {
     "date": "2016-10-30",
     "time": "12:26:58",
-    "transaction": 51,
-    "item": "Bread"
+    "sold": 51,
+    "food": "Bread"
   },
   {
     "date": "2016-10-30",
     "time": "12:28:07",
-    "transaction": 52,
-    "item": "Scandinavian"
+    "sold": 52,
+    "food": "Scandinavian"
   },
   {
     "date": "2016-10-30",
     "time": "12:33:08",
-    "transaction": 54,
-    "item": "Bread"
+    "sold": 54,
+    "food": "Bread"
   },
   {
     "date": "2016-10-30",
     "time": "12:38:06",
-    "transaction": 55,
-    "item": "Frittata"
+    "sold": 55,
+    "food": "Frittata"
   },
   {
     "date": "2016-10-30",
     "time": "12:38:06",
-    "transaction": 55,
-    "item": "Coffee"
+    "sold": 55,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-30",
     "time": "12:38:06",
-    "transaction": 55,
-    "item": "Tea"
+    "sold": 55,
+    "food": "Tea"
   },
   {
     "date": "2016-10-30",
     "time": "12:38:06",
-    "transaction": 55,
-    "item": "Hearty & Seasonal"
+    "sold": 55,
+    "food": "Hearty & Seasonal"
   },
   {
     "date": "2016-10-30",
     "time": "12:39:27",
-    "transaction": 56,
-    "item": "Coffee"
+    "sold": 56,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-30",
     "time": "12:39:27",
-    "transaction": 56,
-    "item": "Frittata"
+    "sold": 56,
+    "food": "Frittata"
   },
   {
     "date": "2016-10-30",
     "time": "12:45:48",
-    "transaction": 57,
-    "item": "Scandinavian"
+    "sold": 57,
+    "food": "Scandinavian"
   },
   {
     "date": "2016-10-30",
     "time": "12:59:29",
-    "transaction": 58,
-    "item": "Victorian Sponge"
+    "sold": 58,
+    "food": "Victorian Sponge"
   },
   {
     "date": "2016-10-30",
     "time": "12:59:29",
-    "transaction": 58,
-    "item": "Hot chocolate"
+    "sold": 58,
+    "food": "Hot chocolate"
   },
   {
     "date": "2016-10-30",
     "time": "12:59:29",
-    "transaction": 58,
-    "item": "Tea"
+    "sold": 58,
+    "food": "Tea"
   },
   {
     "date": "2016-10-30",
     "time": "12:59:29",
-    "transaction": 58,
-    "item": "Soup"
+    "sold": 58,
+    "food": "Soup"
   },
   {
     "date": "2016-10-30",
     "time": "13:02:04",
-    "transaction": 59,
-    "item": "Tea"
+    "sold": 59,
+    "food": "Tea"
   },
   {
     "date": "2016-10-30",
     "time": "13:02:04",
-    "transaction": 59,
-    "item": "NONE"
+    "sold": 59,
+    "food": "NONE"
   },
   {
     "date": "2016-10-30",
     "time": "13:14:04",
-    "transaction": 60,
-    "item": "Cookies"
+    "sold": 60,
+    "food": "Cookies"
   },
   {
     "date": "2016-10-30",
     "time": "13:14:04",
-    "transaction": 60,
-    "item": "Coffee"
+    "sold": 60,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-30",
     "time": "13:14:04",
-    "transaction": 60,
-    "item": "Juice"
+    "sold": 60,
+    "food": "Juice"
   },
   {
     "date": "2016-10-30",
     "time": "13:14:04",
-    "transaction": 60,
-    "item": "Coffee"
+    "sold": 60,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-30",
     "time": "13:15:38",
-    "transaction": 61,
-    "item": "Coffee"
+    "sold": 61,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-30",
     "time": "13:24:00",
-    "transaction": 62,
-    "item": "Pick and Mix Bowls"
+    "sold": 62,
+    "food": "Pick and Mix Bowls"
   },
   {
     "date": "2016-10-30",
     "time": "13:24:00",
-    "transaction": 62,
-    "item": "Hearty & Seasonal"
+    "sold": 62,
+    "food": "Hearty & Seasonal"
   },
   {
     "date": "2016-10-30",
     "time": "13:24:00",
-    "transaction": 62,
-    "item": "Hearty & Seasonal"
+    "sold": 62,
+    "food": "Hearty & Seasonal"
   },
   {
     "date": "2016-10-30",
     "time": "13:24:00",
-    "transaction": 62,
-    "item": "Coffee"
+    "sold": 62,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-30",
     "time": "13:24:00",
-    "transaction": 62,
-    "item": "Smoothies"
+    "sold": 62,
+    "food": "Smoothies"
   },
   {
     "date": "2016-10-30",
     "time": "13:24:00",
-    "transaction": 62,
-    "item": "Coffee"
+    "sold": 62,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-30",
     "time": "13:33:12",
-    "transaction": 63,
-    "item": "Coffee"
+    "sold": 63,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-30",
     "time": "13:34:07",
-    "transaction": 64,
-    "item": "Cake"
+    "sold": 64,
+    "food": "Cake"
   },
   {
     "date": "2016-10-30",
     "time": "13:37:25",
-    "transaction": 65,
-    "item": "NONE"
+    "sold": 65,
+    "food": "NONE"
   },
   {
     "date": "2016-10-30",
     "time": "13:37:25",
-    "transaction": 65,
-    "item": "Tartine"
+    "sold": 65,
+    "food": "Tartine"
   },
   {
     "date": "2016-10-30",
     "time": "13:37:25",
-    "transaction": 65,
-    "item": "Mighty Protein"
+    "sold": 65,
+    "food": "Mighty Protein"
   },
   {
     "date": "2016-10-30",
     "time": "13:37:25",
-    "transaction": 65,
-    "item": "Tea"
+    "sold": 65,
+    "food": "Tea"
   },
   {
     "date": "2016-10-30",
     "time": "13:37:25",
-    "transaction": 65,
-    "item": "Coffee"
+    "sold": 65,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-30",
     "time": "13:40:20",
-    "transaction": 66,
-    "item": "Hearty & Seasonal"
+    "sold": 66,
+    "food": "Hearty & Seasonal"
   },
   {
     "date": "2016-10-30",
     "time": "13:40:20",
-    "transaction": 66,
-    "item": "Frittata"
+    "sold": 66,
+    "food": "Frittata"
   },
   {
     "date": "2016-10-30",
     "time": "13:40:20",
-    "transaction": 66,
-    "item": "Mineral water"
+    "sold": 66,
+    "food": "Mineral water"
   },
   {
     "date": "2016-10-30",
     "time": "13:46:48",
-    "transaction": 67,
-    "item": "Hearty & Seasonal"
+    "sold": 67,
+    "food": "Hearty & Seasonal"
   },
   {
     "date": "2016-10-30",
     "time": "13:46:48",
-    "transaction": 67,
-    "item": "NONE"
+    "sold": 67,
+    "food": "NONE"
   },
   {
     "date": "2016-10-30",
     "time": "13:46:48",
-    "transaction": 67,
-    "item": "Mineral water"
+    "sold": 67,
+    "food": "Mineral water"
   },
   {
     "date": "2016-10-30",
     "time": "13:46:48",
-    "transaction": 67,
-    "item": "Muffin"
+    "sold": 67,
+    "food": "Muffin"
   },
   {
     "date": "2016-10-30",
     "time": "13:49:36",
-    "transaction": 68,
-    "item": "Frittata"
+    "sold": 68,
+    "food": "Frittata"
   },
   {
     "date": "2016-10-30",
     "time": "13:49:36",
-    "transaction": 68,
-    "item": "Coffee"
+    "sold": 68,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-30",
     "time": "13:49:36",
-    "transaction": 68,
-    "item": "Tea"
+    "sold": 68,
+    "food": "Tea"
   },
   {
     "date": "2016-10-30",
     "time": "13:49:36",
-    "transaction": 68,
-    "item": "Scandinavian"
+    "sold": 68,
+    "food": "Scandinavian"
   },
   {
     "date": "2016-10-30",
     "time": "13:49:36",
-    "transaction": 68,
-    "item": "Chicken sand"
+    "sold": 68,
+    "food": "Chicken sand"
   },
   {
     "date": "2016-10-30",
     "time": "13:51:49",
-    "transaction": 69,
-    "item": "Bread"
+    "sold": 69,
+    "food": "Bread"
   },
   {
     "date": "2016-10-30",
     "time": "13:51:49",
-    "transaction": 69,
-    "item": "Tea"
+    "sold": 69,
+    "food": "Tea"
   },
   {
     "date": "2016-10-30",
     "time": "13:51:49",
-    "transaction": 69,
-    "item": "Victorian Sponge"
+    "sold": 69,
+    "food": "Victorian Sponge"
   },
   {
     "date": "2016-10-30",
     "time": "13:54:42",
-    "transaction": 70,
-    "item": "Fudge"
+    "sold": 70,
+    "food": "Fudge"
   },
   {
     "date": "2016-10-30",
     "time": "13:56:08",
-    "transaction": 71,
-    "item": "Muffin"
+    "sold": 71,
+    "food": "Muffin"
   },
   {
     "date": "2016-10-30",
     "time": "14:21:38",
-    "transaction": 72,
-    "item": "Coffee"
+    "sold": 72,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-30",
     "time": "14:21:38",
-    "transaction": 72,
-    "item": "Bread"
+    "sold": 72,
+    "food": "Bread"
   },
   {
     "date": "2016-10-30",
     "time": "14:22:39",
-    "transaction": 73,
-    "item": "Bread"
+    "sold": 73,
+    "food": "Bread"
   },
   {
     "date": "2016-10-30",
     "time": "14:24:03",
-    "transaction": 74,
-    "item": "Coffee"
+    "sold": 74,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-30",
     "time": "14:24:03",
-    "transaction": 74,
-    "item": "Bread"
+    "sold": 74,
+    "food": "Bread"
   },
   {
     "date": "2016-10-30",
     "time": "14:32:26",
-    "transaction": 75,
-    "item": "NONE"
+    "sold": 75,
+    "food": "NONE"
   },
   {
     "date": "2016-10-30",
     "time": "14:32:26",
-    "transaction": 75,
-    "item": "Jam"
+    "sold": 75,
+    "food": "Jam"
   },
   {
     "date": "2016-10-30",
     "time": "14:32:26",
-    "transaction": 75,
-    "item": "Frittata"
+    "sold": 75,
+    "food": "Frittata"
   },
   {
     "date": "2016-10-30",
     "time": "14:32:49",
-    "transaction": 76,
-    "item": "Coffee"
+    "sold": 76,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-30",
     "time": "14:35:36",
-    "transaction": 77,
-    "item": "Scandinavian"
+    "sold": 77,
+    "food": "Scandinavian"
   },
   {
     "date": "2016-10-30",
     "time": "14:42:29",
-    "transaction": 78,
-    "item": "Fudge"
+    "sold": 78,
+    "food": "Fudge"
   },
   {
     "date": "2016-10-30",
     "time": "14:45:44",
-    "transaction": 79,
-    "item": "Fudge"
+    "sold": 79,
+    "food": "Fudge"
   },
   {
     "date": "2016-10-30",
     "time": "14:45:44",
-    "transaction": 79,
-    "item": "Tea"
+    "sold": 79,
+    "food": "Tea"
   },
   {
     "date": "2016-10-30",
     "time": "14:45:44",
-    "transaction": 79,
-    "item": "Coffee"
+    "sold": 79,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-30",
     "time": "14:45:44",
-    "transaction": 79,
-    "item": "Muffin"
+    "sold": 79,
+    "food": "Muffin"
   },
   {
     "date": "2016-10-30",
     "time": "14:48:40",
-    "transaction": 80,
-    "item": "Frittata"
+    "sold": 80,
+    "food": "Frittata"
   },
   {
     "date": "2016-10-30",
     "time": "14:48:40",
-    "transaction": 80,
-    "item": "Bread"
+    "sold": 80,
+    "food": "Bread"
   },
   {
     "date": "2016-10-30",
     "time": "14:48:40",
-    "transaction": 80,
-    "item": "Coffee"
+    "sold": 80,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "08:28:31",
-    "transaction": 81,
-    "item": "Coffee"
+    "sold": 81,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "08:28:31",
-    "transaction": 81,
-    "item": "Cake"
+    "sold": 81,
+    "food": "Cake"
   },
   {
     "date": "2016-10-31",
     "time": "08:47:05",
-    "transaction": 82,
-    "item": "Tartine"
+    "sold": 82,
+    "food": "Tartine"
   },
   {
     "date": "2016-10-31",
     "time": "08:47:05",
-    "transaction": 82,
-    "item": "NONE"
+    "sold": 82,
+    "food": "NONE"
   },
   {
     "date": "2016-10-31",
     "time": "08:47:05",
-    "transaction": 82,
-    "item": "Bread"
+    "sold": 82,
+    "food": "Bread"
   },
   {
     "date": "2016-10-31",
     "time": "08:57:47",
-    "transaction": 83,
-    "item": "Coffee"
+    "sold": 83,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "08:57:47",
-    "transaction": 83,
-    "item": "Bread"
+    "sold": 83,
+    "food": "Bread"
   },
   {
     "date": "2016-10-31",
     "time": "09:04:06",
-    "transaction": 84,
-    "item": "Bread"
+    "sold": 84,
+    "food": "Bread"
   },
   {
     "date": "2016-10-31",
     "time": "09:10:09",
-    "transaction": 85,
-    "item": "Coffee"
+    "sold": 85,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "09:10:09",
-    "transaction": 85,
-    "item": "Coffee"
+    "sold": 85,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "09:10:09",
-    "transaction": 85,
-    "item": "Pastry"
+    "sold": 85,
+    "food": "Pastry"
   },
   {
     "date": "2016-10-31",
     "time": "09:10:09",
-    "transaction": 85,
-    "item": "Medialuna"
+    "sold": 85,
+    "food": "Medialuna"
   },
   {
     "date": "2016-10-31",
     "time": "09:11:08",
-    "transaction": 86,
-    "item": "Juice"
+    "sold": 86,
+    "food": "Juice"
   },
   {
     "date": "2016-10-31",
     "time": "09:12:56",
-    "transaction": 87,
-    "item": "Bread"
+    "sold": 87,
+    "food": "Bread"
   },
   {
     "date": "2016-10-31",
     "time": "09:16:01",
-    "transaction": 88,
-    "item": "Coffee"
+    "sold": 88,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "09:16:01",
-    "transaction": 88,
-    "item": "Coffee"
+    "sold": 88,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "09:16:01",
-    "transaction": 88,
-    "item": "Jam"
+    "sold": 88,
+    "food": "Jam"
   },
   {
     "date": "2016-10-31",
     "time": "09:19:41",
-    "transaction": 89,
-    "item": "Bread"
+    "sold": 89,
+    "food": "Bread"
   },
   {
     "date": "2016-10-31",
     "time": "09:20:12",
-    "transaction": 90,
-    "item": "Bread"
+    "sold": 90,
+    "food": "Bread"
   },
   {
     "date": "2016-10-31",
     "time": "09:20:12",
-    "transaction": 90,
-    "item": "Coffee"
+    "sold": 90,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "09:22:48",
-    "transaction": 91,
-    "item": "Tea"
+    "sold": 91,
+    "food": "Tea"
   },
   {
     "date": "2016-10-31",
     "time": "09:22:48",
-    "transaction": 91,
-    "item": "NONE"
+    "sold": 91,
+    "food": "NONE"
   },
   {
     "date": "2016-10-31",
     "time": "09:27:11",
-    "transaction": 92,
-    "item": "Coffee"
+    "sold": 92,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "09:29:23",
-    "transaction": 93,
-    "item": "Bread"
+    "sold": 93,
+    "food": "Bread"
   },
   {
     "date": "2016-10-31",
     "time": "09:29:23",
-    "transaction": 93,
-    "item": "Coke"
+    "sold": 93,
+    "food": "Coke"
   },
   {
     "date": "2016-10-31",
     "time": "09:39:09",
-    "transaction": 94,
-    "item": "Coffee"
+    "sold": 94,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "09:39:09",
-    "transaction": 94,
-    "item": "Coffee"
+    "sold": 94,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "09:43:37",
-    "transaction": 95,
-    "item": "Tea"
+    "sold": 95,
+    "food": "Tea"
   },
   {
     "date": "2016-10-31",
     "time": "09:43:37",
-    "transaction": 95,
-    "item": "Pastry"
+    "sold": 95,
+    "food": "Pastry"
   },
   {
     "date": "2016-10-31",
     "time": "09:43:37",
-    "transaction": 95,
-    "item": "Farm House"
+    "sold": 95,
+    "food": "Farm House"
   },
   {
     "date": "2016-10-31",
     "time": "09:46:48",
-    "transaction": 96,
-    "item": "Pastry"
+    "sold": 96,
+    "food": "Pastry"
   },
   {
     "date": "2016-10-31",
     "time": "09:46:48",
-    "transaction": 96,
-    "item": "Pastry"
+    "sold": 96,
+    "food": "Pastry"
   },
   {
     "date": "2016-10-31",
     "time": "09:46:48",
-    "transaction": 96,
-    "item": "Coffee"
+    "sold": 96,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "09:46:48",
-    "transaction": 96,
-    "item": "Juice"
+    "sold": 96,
+    "food": "Juice"
   },
   {
     "date": "2016-10-31",
     "time": "09:51:11",
-    "transaction": 97,
-    "item": "Coffee"
+    "sold": 97,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "09:51:11",
-    "transaction": 97,
-    "item": "Pastry"
+    "sold": 97,
+    "food": "Pastry"
   },
   {
     "date": "2016-10-31",
     "time": "09:51:11",
-    "transaction": 97,
-    "item": "Juice"
+    "sold": 97,
+    "food": "Juice"
   },
   {
     "date": "2016-10-31",
     "time": "09:52:22",
-    "transaction": 98,
-    "item": "Farm House"
+    "sold": 98,
+    "food": "Farm House"
   },
   {
     "date": "2016-10-31",
     "time": "09:56:37",
-    "transaction": 99,
-    "item": "Pastry"
+    "sold": 99,
+    "food": "Pastry"
   },
   {
     "date": "2016-10-31",
     "time": "09:56:37",
-    "transaction": 99,
-    "item": "Pastry"
+    "sold": 99,
+    "food": "Pastry"
   },
   {
     "date": "2016-10-31",
     "time": "09:56:37",
-    "transaction": 99,
-    "item": "Coffee"
+    "sold": 99,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "09:56:37",
-    "transaction": 99,
-    "item": "Bread"
+    "sold": 99,
+    "food": "Bread"
   },
   {
     "date": "2016-10-31",
     "time": "09:58:06",
-    "transaction": 100,
-    "item": "Bread"
+    "sold": 100,
+    "food": "Bread"
   },
   {
     "date": "2016-10-31",
     "time": "10:04:02",
-    "transaction": 101,
-    "item": "Coffee"
+    "sold": 101,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "10:04:02",
-    "transaction": 101,
-    "item": "Pastry"
+    "sold": 101,
+    "food": "Pastry"
   },
   {
     "date": "2016-10-31",
     "time": "10:04:44",
-    "transaction": 102,
-    "item": "Farm House"
+    "sold": 102,
+    "food": "Farm House"
   },
   {
     "date": "2016-10-31",
     "time": "10:07:40",
-    "transaction": 103,
-    "item": "NONE"
+    "sold": 103,
+    "food": "NONE"
   },
   {
     "date": "2016-10-31",
     "time": "10:07:40",
-    "transaction": 103,
-    "item": "Bread"
+    "sold": 103,
+    "food": "Bread"
   },
   {
     "date": "2016-10-31",
     "time": "10:12:48",
-    "transaction": 104,
-    "item": "Coffee"
+    "sold": 104,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "10:12:48",
-    "transaction": 104,
-    "item": "Coffee"
+    "sold": 104,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "10:12:48",
-    "transaction": 104,
-    "item": "Medialuna"
+    "sold": 104,
+    "food": "Medialuna"
   },
   {
     "date": "2016-10-31",
     "time": "10:12:48",
-    "transaction": 104,
-    "item": "Muffin"
+    "sold": 104,
+    "food": "Muffin"
   },
   {
     "date": "2016-10-31",
     "time": "10:12:48",
-    "transaction": 104,
-    "item": "Coffee"
+    "sold": 104,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "10:21:29",
-    "transaction": 105,
-    "item": "Coffee"
+    "sold": 105,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "10:21:29",
-    "transaction": 105,
-    "item": "Tea"
+    "sold": 105,
+    "food": "Tea"
   },
   {
     "date": "2016-10-31",
     "time": "10:21:29",
-    "transaction": 105,
-    "item": "NONE"
+    "sold": 105,
+    "food": "NONE"
   },
   {
     "date": "2016-10-31",
     "time": "10:21:29",
-    "transaction": 105,
-    "item": "Cake"
+    "sold": 105,
+    "food": "Cake"
   },
   {
     "date": "2016-10-31",
     "time": "10:24:21",
-    "transaction": 106,
-    "item": "Coffee"
+    "sold": 106,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "10:24:21",
-    "transaction": 106,
-    "item": "Coffee"
+    "sold": 106,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "10:24:21",
-    "transaction": 106,
-    "item": "Pastry"
+    "sold": 106,
+    "food": "Pastry"
   },
   {
     "date": "2016-10-31",
     "time": "10:24:21",
-    "transaction": 106,
-    "item": "Pastry"
+    "sold": 106,
+    "food": "Pastry"
   },
   {
     "date": "2016-10-31",
     "time": "10:27:30",
-    "transaction": 107,
-    "item": "Coffee"
+    "sold": 107,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "10:27:30",
-    "transaction": 107,
-    "item": "Tea"
+    "sold": 107,
+    "food": "Tea"
   },
   {
     "date": "2016-10-31",
     "time": "10:31:05",
-    "transaction": 108,
-    "item": "Farm House"
+    "sold": 108,
+    "food": "Farm House"
   },
   {
     "date": "2016-10-31",
     "time": "10:31:05",
-    "transaction": 108,
-    "item": "Muffin"
+    "sold": 108,
+    "food": "Muffin"
   },
   {
     "date": "2016-10-31",
     "time": "10:35:23",
-    "transaction": 109,
-    "item": "Bread"
+    "sold": 109,
+    "food": "Bread"
   },
   {
     "date": "2016-10-31",
     "time": "10:35:23",
-    "transaction": 109,
-    "item": "Muffin"
+    "sold": 109,
+    "food": "Muffin"
   },
   {
     "date": "2016-10-31",
     "time": "10:35:23",
-    "transaction": 109,
-    "item": "Pastry"
+    "sold": 109,
+    "food": "Pastry"
   },
   {
     "date": "2016-10-31",
     "time": "10:36:37",
-    "transaction": 110,
-    "item": "Pastry"
+    "sold": 110,
+    "food": "Pastry"
   },
   {
     "date": "2016-10-31",
     "time": "10:38:09",
-    "transaction": 111,
-    "item": "Coffee"
+    "sold": 111,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "10:59:17",
-    "transaction": 112,
-    "item": "Coffee"
+    "sold": 112,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "11:02:37",
-    "transaction": 113,
-    "item": "Coffee"
+    "sold": 113,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "11:02:37",
-    "transaction": 113,
-    "item": "Cake"
+    "sold": 113,
+    "food": "Cake"
   },
   {
     "date": "2016-10-31",
     "time": "11:05:45",
-    "transaction": 114,
-    "item": "Farm House"
+    "sold": 114,
+    "food": "Farm House"
   },
   {
     "date": "2016-10-31",
     "time": "11:08:53",
-    "transaction": 115,
-    "item": "Bread"
+    "sold": 115,
+    "food": "Bread"
   },
   {
     "date": "2016-10-31",
     "time": "11:11:01",
-    "transaction": 116,
-    "item": "Coffee"
+    "sold": 116,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "11:13:08",
-    "transaction": 117,
-    "item": "Cookies"
+    "sold": 117,
+    "food": "Cookies"
   },
   {
     "date": "2016-10-31",
     "time": "11:13:08",
-    "transaction": 117,
-    "item": "Cake"
+    "sold": 117,
+    "food": "Cake"
   },
   {
     "date": "2016-10-31",
     "time": "11:13:08",
-    "transaction": 117,
-    "item": "Coffee"
+    "sold": 117,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "11:13:08",
-    "transaction": 117,
-    "item": "My-5 Fruit Shoot"
+    "sold": 117,
+    "food": "My-5 Fruit Shoot"
   },
   {
     "date": "2016-10-31",
     "time": "11:18:29",
-    "transaction": 118,
-    "item": "Cookies"
+    "sold": 118,
+    "food": "Cookies"
   },
   {
     "date": "2016-10-31",
     "time": "11:18:29",
-    "transaction": 118,
-    "item": "Cookies"
+    "sold": 118,
+    "food": "Cookies"
   },
   {
     "date": "2016-10-31",
     "time": "11:18:29",
-    "transaction": 118,
-    "item": "Tea"
+    "sold": 118,
+    "food": "Tea"
   },
   {
     "date": "2016-10-31",
     "time": "11:18:29",
-    "transaction": 118,
-    "item": "Pastry"
+    "sold": 118,
+    "food": "Pastry"
   },
   {
     "date": "2016-10-31",
     "time": "11:25:56",
-    "transaction": 119,
-    "item": "Coffee"
+    "sold": 119,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "11:25:56",
-    "transaction": 119,
-    "item": "Coffee"
+    "sold": 119,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "11:25:56",
-    "transaction": 119,
-    "item": "Muffin"
+    "sold": 119,
+    "food": "Muffin"
   },
   {
     "date": "2016-10-31",
     "time": "11:29:01",
-    "transaction": 120,
-    "item": "Farm House"
+    "sold": 120,
+    "food": "Farm House"
   },
   {
     "date": "2016-10-31",
     "time": "11:30:59",
-    "transaction": 121,
-    "item": "Coffee"
+    "sold": 121,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "11:30:59",
-    "transaction": 121,
-    "item": "Bread"
+    "sold": 121,
+    "food": "Bread"
   },
   {
     "date": "2016-10-31",
     "time": "11:37:30",
-    "transaction": 122,
-    "item": "Cookies"
+    "sold": 122,
+    "food": "Cookies"
   },
   {
     "date": "2016-10-31",
     "time": "11:42:05",
-    "transaction": 123,
-    "item": "Jam"
+    "sold": 123,
+    "food": "Jam"
   },
   {
     "date": "2016-10-31",
     "time": "11:42:05",
-    "transaction": 123,
-    "item": "NONE"
+    "sold": 123,
+    "food": "NONE"
   },
   {
     "date": "2016-10-31",
     "time": "11:42:05",
-    "transaction": 123,
-    "item": "Coffee"
+    "sold": 123,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "11:42:05",
-    "transaction": 123,
-    "item": "Coffee"
+    "sold": 123,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "11:42:05",
-    "transaction": 123,
-    "item": "Juice"
+    "sold": 123,
+    "food": "Juice"
   },
   {
     "date": "2016-10-31",
     "time": "11:43:10",
-    "transaction": 124,
-    "item": "Coffee"
+    "sold": 124,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "11:43:10",
-    "transaction": 124,
-    "item": "Soup"
+    "sold": 124,
+    "food": "Soup"
   },
   {
     "date": "2016-10-31",
     "time": "11:47:18",
-    "transaction": 125,
-    "item": "Tea"
+    "sold": 125,
+    "food": "Tea"
   },
   {
     "date": "2016-10-31",
     "time": "11:52:43",
-    "transaction": 126,
-    "item": "Coffee"
+    "sold": 126,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "11:52:43",
-    "transaction": 126,
-    "item": "Jam"
+    "sold": 126,
+    "food": "Jam"
   },
   {
     "date": "2016-10-31",
     "time": "11:53:11",
-    "transaction": 127,
-    "item": "Farm House"
+    "sold": 127,
+    "food": "Farm House"
   },
   {
     "date": "2016-10-31",
     "time": "11:55:00",
-    "transaction": 128,
-    "item": "NONE"
+    "sold": 128,
+    "food": "NONE"
   },
   {
     "date": "2016-10-31",
     "time": "11:55:00",
-    "transaction": 128,
-    "item": "Tartine"
+    "sold": 128,
+    "food": "Tartine"
   },
   {
     "date": "2016-10-31",
     "time": "11:55:00",
-    "transaction": 128,
-    "item": "Coffee"
+    "sold": 128,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "11:55:00",
-    "transaction": 128,
-    "item": "Tea"
+    "sold": 128,
+    "food": "Tea"
   },
   {
     "date": "2016-10-31",
     "time": "11:59:23",
-    "transaction": 129,
-    "item": "Coffee"
+    "sold": 129,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "11:59:23",
-    "transaction": 129,
-    "item": "Coffee"
+    "sold": 129,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "11:59:23",
-    "transaction": 129,
-    "item": "Cake"
+    "sold": 129,
+    "food": "Cake"
   },
   {
     "date": "2016-10-31",
     "time": "12:03:12",
-    "transaction": 130,
-    "item": "Coffee"
+    "sold": 130,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "12:03:12",
-    "transaction": 130,
-    "item": "Coffee"
+    "sold": 130,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "12:03:12",
-    "transaction": 130,
-    "item": "Muffin"
+    "sold": 130,
+    "food": "Muffin"
   },
   {
     "date": "2016-10-31",
     "time": "12:08:28",
-    "transaction": 131,
-    "item": "Bread"
+    "sold": 131,
+    "food": "Bread"
   },
   {
     "date": "2016-10-31",
     "time": "12:08:28",
-    "transaction": 131,
-    "item": "Coffee"
+    "sold": 131,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "12:14:20",
-    "transaction": 132,
-    "item": "Tea"
+    "sold": 132,
+    "food": "Tea"
   },
   {
     "date": "2016-10-31",
     "time": "12:14:20",
-    "transaction": 132,
-    "item": "Juice"
+    "sold": 132,
+    "food": "Juice"
   },
   {
     "date": "2016-10-31",
     "time": "12:14:20",
-    "transaction": 132,
-    "item": "Pick and Mix Bowls"
+    "sold": 132,
+    "food": "Pick and Mix Bowls"
   },
   {
     "date": "2016-10-31",
     "time": "12:14:20",
-    "transaction": 132,
-    "item": "Cookies"
+    "sold": 132,
+    "food": "Cookies"
   },
   {
     "date": "2016-10-31",
     "time": "12:16:32",
-    "transaction": 133,
-    "item": "Hearty & Seasonal"
+    "sold": 133,
+    "food": "Hearty & Seasonal"
   },
   {
     "date": "2016-10-31",
     "time": "12:16:32",
-    "transaction": 133,
-    "item": "Soup"
+    "sold": 133,
+    "food": "Soup"
   },
   {
     "date": "2016-10-31",
     "time": "12:19:37",
-    "transaction": 134,
-    "item": "Hearty & Seasonal"
+    "sold": 134,
+    "food": "Hearty & Seasonal"
   },
   {
     "date": "2016-10-31",
     "time": "12:19:37",
-    "transaction": 134,
-    "item": "Tea"
+    "sold": 134,
+    "food": "Tea"
   },
   {
     "date": "2016-10-31",
     "time": "12:19:37",
-    "transaction": 134,
-    "item": "Farm House"
+    "sold": 134,
+    "food": "Farm House"
   },
   {
     "date": "2016-10-31",
     "time": "12:20:21",
-    "transaction": 135,
-    "item": "Bread"
+    "sold": 135,
+    "food": "Bread"
   },
   {
     "date": "2016-10-31",
     "time": "12:27:41",
-    "transaction": 136,
-    "item": "Tea"
+    "sold": 136,
+    "food": "Tea"
   },
   {
     "date": "2016-10-31",
     "time": "12:27:41",
-    "transaction": 136,
-    "item": "Soup"
+    "sold": 136,
+    "food": "Soup"
   },
   {
     "date": "2016-10-31",
     "time": "12:37:07",
-    "transaction": 137,
-    "item": "Farm House"
+    "sold": 137,
+    "food": "Farm House"
   },
   {
     "date": "2016-10-31",
     "time": "12:43:35",
-    "transaction": 138,
-    "item": "Soup"
+    "sold": 138,
+    "food": "Soup"
   },
   {
     "date": "2016-10-31",
     "time": "12:43:35",
-    "transaction": 138,
-    "item": "Hearty & Seasonal"
+    "sold": 138,
+    "food": "Hearty & Seasonal"
   },
   {
     "date": "2016-10-31",
     "time": "12:43:35",
-    "transaction": 138,
-    "item": "Coffee"
+    "sold": 138,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "12:50:57",
-    "transaction": 139,
-    "item": "Bread"
+    "sold": 139,
+    "food": "Bread"
   },
   {
     "date": "2016-10-31",
     "time": "12:50:57",
-    "transaction": 139,
-    "item": "Muffin"
+    "sold": 139,
+    "food": "Muffin"
   },
   {
     "date": "2016-10-31",
     "time": "12:50:57",
-    "transaction": 139,
-    "item": "Hearty & Seasonal"
+    "sold": 139,
+    "food": "Hearty & Seasonal"
   },
   {
     "date": "2016-10-31",
     "time": "12:53:33",
-    "transaction": 140,
-    "item": "Coffee"
+    "sold": 140,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "12:53:33",
-    "transaction": 140,
-    "item": "Coffee"
+    "sold": 140,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "12:53:33",
-    "transaction": 140,
-    "item": "Cookies"
+    "sold": 140,
+    "food": "Cookies"
   },
   {
     "date": "2016-10-31",
     "time": "12:54:28",
-    "transaction": 141,
-    "item": "Bread"
+    "sold": 141,
+    "food": "Bread"
   },
   {
     "date": "2016-10-31",
     "time": "12:56:47",
-    "transaction": 142,
-    "item": "Tea"
+    "sold": 142,
+    "food": "Tea"
   },
   {
     "date": "2016-10-31",
     "time": "12:56:47",
-    "transaction": 142,
-    "item": "Muffin"
+    "sold": 142,
+    "food": "Muffin"
   },
   {
     "date": "2016-10-31",
     "time": "12:59:08",
-    "transaction": 143,
-    "item": "Tea"
+    "sold": 143,
+    "food": "Tea"
   },
   {
     "date": "2016-10-31",
     "time": "13:02:11",
-    "transaction": 144,
-    "item": "Soup"
+    "sold": 144,
+    "food": "Soup"
   },
   {
     "date": "2016-10-31",
     "time": "13:02:11",
-    "transaction": 144,
-    "item": "Hearty & Seasonal"
+    "sold": 144,
+    "food": "Hearty & Seasonal"
   },
   {
     "date": "2016-10-31",
     "time": "13:05:49",
-    "transaction": 145,
-    "item": "Coffee"
+    "sold": 145,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "13:05:49",
-    "transaction": 145,
-    "item": "Tea"
+    "sold": 145,
+    "food": "Tea"
   },
   {
     "date": "2016-10-31",
     "time": "13:05:49",
-    "transaction": 145,
-    "item": "Focaccia"
+    "sold": 145,
+    "food": "Focaccia"
   },
   {
     "date": "2016-10-31",
     "time": "13:08:30",
-    "transaction": 146,
-    "item": "Sandwich"
+    "sold": 146,
+    "food": "Sandwich"
   },
   {
     "date": "2016-10-31",
     "time": "13:09:31",
-    "transaction": 147,
-    "item": "Tartine"
+    "sold": 147,
+    "food": "Tartine"
   },
   {
     "date": "2016-10-31",
     "time": "13:09:31",
-    "transaction": 147,
-    "item": "Coffee"
+    "sold": 147,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "13:21:17",
-    "transaction": 148,
-    "item": "Fudge"
+    "sold": 148,
+    "food": "Fudge"
   },
   {
     "date": "2016-10-31",
     "time": "13:21:17",
-    "transaction": 148,
-    "item": "Coffee"
+    "sold": 148,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "13:21:17",
-    "transaction": 148,
-    "item": "Coffee"
+    "sold": 148,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "13:26:03",
-    "transaction": 149,
-    "item": "Coffee"
+    "sold": 149,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "13:31:33",
-    "transaction": 150,
-    "item": "Bread"
+    "sold": 150,
+    "food": "Bread"
   },
   {
     "date": "2016-10-31",
     "time": "13:50:17",
-    "transaction": 151,
-    "item": "Coke"
+    "sold": 151,
+    "food": "Coke"
   },
   {
     "date": "2016-10-31",
     "time": "13:50:17",
-    "transaction": 151,
-    "item": "Soup"
+    "sold": 151,
+    "food": "Soup"
   },
   {
     "date": "2016-10-31",
     "time": "13:51:18",
-    "transaction": 152,
-    "item": "Muffin"
+    "sold": 152,
+    "food": "Muffin"
   },
   {
     "date": "2016-10-31",
     "time": "13:55:22",
-    "transaction": 153,
-    "item": "Tea"
+    "sold": 153,
+    "food": "Tea"
   },
   {
     "date": "2016-10-31",
     "time": "13:55:22",
-    "transaction": 153,
-    "item": "Coffee"
+    "sold": 153,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "13:55:22",
-    "transaction": 153,
-    "item": "Cookies"
+    "sold": 153,
+    "food": "Cookies"
   },
   {
     "date": "2016-10-31",
     "time": "13:55:22",
-    "transaction": 153,
-    "item": "Muffin"
+    "sold": 153,
+    "food": "Muffin"
   },
   {
     "date": "2016-10-31",
     "time": "14:00:21",
-    "transaction": 154,
-    "item": "Mighty Protein"
+    "sold": 154,
+    "food": "Mighty Protein"
   },
   {
     "date": "2016-10-31",
     "time": "14:00:21",
-    "transaction": 154,
-    "item": "Hearty & Seasonal"
+    "sold": 154,
+    "food": "Hearty & Seasonal"
   },
   {
     "date": "2016-10-31",
     "time": "14:00:21",
-    "transaction": 154,
-    "item": "Coffee"
+    "sold": 154,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "14:00:21",
-    "transaction": 154,
-    "item": "Coke"
+    "sold": 154,
+    "food": "Coke"
   },
   {
     "date": "2016-10-31",
     "time": "14:01:30",
-    "transaction": 155,
-    "item": "Tea"
+    "sold": 155,
+    "food": "Tea"
   },
   {
     "date": "2016-10-31",
     "time": "14:01:30",
-    "transaction": 155,
-    "item": "Muffin"
+    "sold": 155,
+    "food": "Muffin"
   },
   {
     "date": "2016-10-31",
     "time": "14:01:30",
-    "transaction": 155,
-    "item": "Sandwich"
+    "sold": 155,
+    "food": "Sandwich"
   },
   {
     "date": "2016-10-31",
     "time": "14:04:16",
-    "transaction": 156,
-    "item": "Coffee"
+    "sold": 156,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "14:04:16",
-    "transaction": 156,
-    "item": "Muffin"
+    "sold": 156,
+    "food": "Muffin"
   },
   {
     "date": "2016-10-31",
     "time": "14:05:07",
-    "transaction": 157,
-    "item": "Coffee"
+    "sold": 157,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "14:05:07",
-    "transaction": 157,
-    "item": "Bread"
+    "sold": 157,
+    "food": "Bread"
   },
   {
     "date": "2016-10-31",
     "time": "14:20:29",
-    "transaction": 158,
-    "item": "Coffee"
+    "sold": 158,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "14:20:29",
-    "transaction": 158,
-    "item": "Muffin"
+    "sold": 158,
+    "food": "Muffin"
   },
   {
     "date": "2016-10-31",
     "time": "14:22:31",
-    "transaction": 159,
-    "item": "Bread"
+    "sold": 159,
+    "food": "Bread"
   },
   {
     "date": "2016-10-31",
     "time": "14:22:31",
-    "transaction": 159,
-    "item": "Hot chocolate"
+    "sold": 159,
+    "food": "Hot chocolate"
   },
   {
     "date": "2016-10-31",
     "time": "14:22:31",
-    "transaction": 159,
-    "item": "Cookies"
+    "sold": 159,
+    "food": "Cookies"
   },
   {
     "date": "2016-10-31",
     "time": "14:35:27",
-    "transaction": 160,
-    "item": "Mineral water"
+    "sold": 160,
+    "food": "Mineral water"
   },
   {
     "date": "2016-10-31",
     "time": "14:35:27",
-    "transaction": 160,
-    "item": "Muffin"
+    "sold": 160,
+    "food": "Muffin"
   },
   {
     "date": "2016-10-31",
     "time": "14:42:34",
-    "transaction": 161,
-    "item": "Tea"
+    "sold": 161,
+    "food": "Tea"
   },
   {
     "date": "2016-10-31",
     "time": "14:44:48",
-    "transaction": 162,
-    "item": "Muffin"
+    "sold": 162,
+    "food": "Muffin"
   },
   {
     "date": "2016-10-31",
     "time": "14:47:16",
-    "transaction": 163,
-    "item": "Coffee"
+    "sold": 163,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "14:47:16",
-    "transaction": 163,
-    "item": "Juice"
+    "sold": 163,
+    "food": "Juice"
   },
   {
     "date": "2016-10-31",
     "time": "14:47:36",
-    "transaction": 164,
-    "item": "Coffee"
+    "sold": 164,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "14:47:36",
-    "transaction": 164,
-    "item": "Muffin"
+    "sold": 164,
+    "food": "Muffin"
   },
   {
     "date": "2016-10-31",
     "time": "14:48:49",
-    "transaction": 165,
-    "item": "Tea"
+    "sold": 165,
+    "food": "Tea"
   },
   {
     "date": "2016-10-31",
     "time": "14:49:28",
-    "transaction": 166,
-    "item": "Coffee"
+    "sold": 166,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "14:49:28",
-    "transaction": 166,
-    "item": "Muffin"
+    "sold": 166,
+    "food": "Muffin"
   },
   {
     "date": "2016-10-31",
     "time": "14:50:42",
-    "transaction": 167,
-    "item": "Sandwich"
+    "sold": 167,
+    "food": "Sandwich"
   },
   {
     "date": "2016-10-31",
     "time": "14:50:42",
-    "transaction": 167,
-    "item": "Hearty & Seasonal"
+    "sold": 167,
+    "food": "Hearty & Seasonal"
   },
   {
     "date": "2016-10-31",
     "time": "14:50:42",
-    "transaction": 167,
-    "item": "Bread"
+    "sold": 167,
+    "food": "Bread"
   },
   {
     "date": "2016-10-31",
     "time": "14:50:42",
-    "transaction": 167,
-    "item": "Mineral water"
+    "sold": 167,
+    "food": "Mineral water"
   },
   {
     "date": "2016-10-31",
     "time": "14:56:25",
-    "transaction": 168,
-    "item": "Tea"
+    "sold": 168,
+    "food": "Tea"
   },
   {
     "date": "2016-10-31",
     "time": "14:56:25",
-    "transaction": 168,
-    "item": "Coffee"
+    "sold": 168,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "15:05:17",
-    "transaction": 169,
-    "item": "Mineral water"
+    "sold": 169,
+    "food": "Mineral water"
   },
   {
     "date": "2016-10-31",
     "time": "15:16:49",
-    "transaction": 170,
-    "item": "Coffee"
+    "sold": 170,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "15:20:16",
-    "transaction": 171,
-    "item": "Soup"
+    "sold": 171,
+    "food": "Soup"
   },
   {
     "date": "2016-10-31",
     "time": "15:20:16",
-    "transaction": 171,
-    "item": "Tea"
+    "sold": 171,
+    "food": "Tea"
   },
   {
     "date": "2016-10-31",
     "time": "17:06:47",
-    "transaction": 172,
-    "item": "Bread"
+    "sold": 172,
+    "food": "Bread"
   },
   {
     "date": "2016-10-31",
     "time": "17:06:47",
-    "transaction": 172,
-    "item": "Coffee"
+    "sold": 172,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "17:08:09",
-    "transaction": 173,
-    "item": "Bread"
+    "sold": 173,
+    "food": "Bread"
   },
   {
     "date": "2016-10-31",
     "time": "17:08:09",
-    "transaction": 173,
-    "item": "Muffin"
+    "sold": 173,
+    "food": "Muffin"
   },
   {
     "date": "2016-10-31",
     "time": "17:40:21",
-    "transaction": 174,
-    "item": "Coffee"
+    "sold": 174,
+    "food": "Coffee"
   },
   {
     "date": "2016-10-31",
     "time": "17:49:42",
-    "transaction": 175,
-    "item": "Bread"
+    "sold": 175,
+    "food": "Bread"
   },
   {
     "date": "2016-10-31",
     "time": "18:22:24",
-    "transaction": 176,
-    "item": "Cookies"
-  },
-  {
-    "date": "2016-10-31",
-    "time": "18:22:24",
-    "transaction": 176,
-    "item": "Coffee"
+    "sold": 176,
+    "food": "Cookies"
   }
 ]
