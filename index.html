@@ -1,137 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Data Analysis Of Bakery Sales</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Data Analysis Of Fifa 19 Players</title>
+        <link rel="stylesheet" href="static/css/bootstrap.min.css" type="text/css" />
+        <link rel="stylesheet" href="static/css/dc.min.css" type="text/css" />
+        <link rel="stylesheet" href="static/css/main.css" type="text/css" />
+        <script type="text/javascript" src="static/js/d3.min.js"></script>
+        <script type="text/javascript" src="static/js/crossfilter.min.js"></script>
+        <script type="text/javascript" src="static/js/dc.min.js"></script>
+        <script type="text/javascript" src="static/js/queue.min.js"></script>
+        <script type="text/javascript" src="static/js/graph.js"></script>
+    </head>
 
-    <link rel="stylesheet" href="static/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="static/css/dc.min.css" type="text/css" />
+    <body>
 
-    <script type="text/javascript" src="static/js/d3.min.js"></script>
-    <script type="text/javascript" src="static/js/crossfilter.min.js"></script>
-    <script type="text/javascript" src="static/js/dc.min.js"></script>
-    <script type="text/javascript" src="static/js/queue.min.js"></script>
+        <!----- navbar ------>
+        
+        
+        <nav class="navbar navbar-light" style="background-color: #FF0000;">
+            <p class="navbar-text">
+              <center style="color:white ; margin-top:15px">
+                Fifa 2019 10 Players Data Dashboard
+              </center>
+            </p>
+        </nav>
+        
+        
+        <!----- graph.js charts ------>
 
+        <main>
 
-    <script type="text/javascript" src="static/js/graph.js"></script>
-
-
-</head>
-
-
-<body>
-
-
-    <!----- navbar ------>
-
-    <div class="navbar">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="navbar-header">
-                        <a class="navbar-brand" href="#">Dashboard Datasets</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!----- graph.js charts ------>
-
-    <!----- Title ------>
-    <main>
-        <section class="section center">
+            <!----- Pie chart 1------>
+            
             <div class="container">
-
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12">
-                        <h1 class="section-heading text-center"> Bakery Transactions</h1>
+                    <div class="column center">
+                        <h2 class="section-heading">
+                            Age of players - Piechart
+                        </h2>
+                        <div id="age-of-players" class="piechart">
+                        </div>
+                        <p style="position:relative">
+                            This is a pie chart designed to show the age diffrences between the 10 football players.
+                        </p>                        
+                    </div>
+                    
+                    <!----- Pie chart 2------>
+                    
+                    
+                    <div class="column center">
+                        <h2 class="section-heading">
+                            Position of players - piechart
+                        </h2>
+                        <div id="position-of-player" class="piechart">
+                        </div>
+                        <p>
+                            This is a second chart to show where the positions on the feild  players play.
+                        </p>                                                
                     </div>
                 </div>
+            </div>             
 
-                <div class="row center">
-                    <div class="col-xs-12 col-sm-4">
-                        <p class=" section-paragraph text-center">Coffee was the highest item on the chart sold at the bakery. The total amount was 9037 cups in the period of two days of sales. </p>
-                    </div>
-                </div>
+
+
+            <div style="text-align:center">
+                <h1 class="section-heading">
+                    FIFA 2019 10 Players Statics
+                </h1>
             </div>
-        </section>
 
 
-        <section class="section center">
-            <div class="container">
 
-                <!----- Bar chart------>
+            <!----- Bar chart------>
+            
+            <section class="section center">
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-xs-12 col-sm-12 ">
+                            <div id="nationality">
+                            </div>
+                        </div>
+                    </div>
+                            <h5 class="section-heading text-center">
+                                Nationality of 10 football players
+                            </h5>
 
-                <div class="row ">
-                    <div class="col-xs-12 col-sm-12 ">
-                        <h2 class="section-heading text-center">All Stock sold in the cafe. </h2>
-                        <div id="transaction-data"></div>
+                            <p style="text-align:center">
+                               These are the country that represent the 10 footballers playing internationally for football clubs all over the world.
+                            </p>
+                    </div>
+
+            </section>
+
+            <!----- Line Chart ------>
+            
+            
+            <section class="section center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12">
+                            <h2 class="section-heading text-center">
+                                LineChart
+                            </h2>
+                            <div id="wage-vs-value">
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-                <div class="row">
-                    <div class="col-xs-12 col-sm-4">
-                        <p class="section-paragraph text-center">Coffee, Bread and Tea were the items that were purchased quite freqently at the bakery. </p>
+            </section>
+            
+            <!----- Composite Chart------>
+            
+            
+            <section class="section center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12">
+                            <h2 class="section-heading text-center">
+                                Composite Chart
+                            </h2>
+                            <div id="overall-vs-potential"> 
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <!----- Pie chart------>
-
-        <section class="section center">
-            <div class="container">
-
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12">
-                        <h2 class="section-heading text-center">Total Items Sold</h2>
-                        <div id="item-data"></div>
+            </section> 
+            
+            
+            <!----- Stacked Chart------>
+            
+            
+            <section class="section center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12">
+                            <h2 class="section-heading text-center">
+                                Stacked bar Chart
+                            </h2>
+                            <div id="stacked-chart">
+                            </div> 
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-
-        <!----- Line Chart ------>
-
-
-        <section class="section center">
+            </section>
+        </main> 
+        
+        
+        <!----- Footer ------>
+        
+        
+        <footer class="footer text-center" style="background-color: #FF0000;">
             <div class="container">
-
-
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12">
-                        <h2 class="section-heading text-center">LineChart </h2>
-                        <div id="purchase-date-sales" </div> </div> </div> </div> </section> <!----- Composite Chart------>
-
-                            <section class="section center">
-                                <div class="container">
-
-
-                                    <div class="row">
-                                        <div class="col-xs-12 col-sm-12">
-                                            <h2 class="section-heading text-center">Composite Chart</h2>
-                                            <div id="composite-chart" </div> </div> </div> </div> </section> <!----- Stacked Chart------>
-
-                                                <section class="section center">
-                                                    <div class="container">
-
-
-                                                        <div class="row">
-                                                            <div class="col-xs-12 col-sm-12">
-
-                                                                <h2 class="section-heading text-center">Stacked bar Chart</h2>
-                                                                <div id="stacked-chart" </div> </div> </div> </div> </section> </main> <!----- Footer ------>
-
-                                                                    <footer class="footer text-center">
-                                                                        <div class="container" <p class="footer"><small>COPYRIGHT © 2019. ALL RIGHTS RESERVED.</small></p>
-                                                                            <small>
-                                                                            </small>
-                                                                    </footer>
-</body>
-
+                <p class="footer">
+                    <small>
+                        <center style="color:white ; margin-top:15px">
+                        COPYRIGHT © 2019. ALL RIGHTS RESERVED.
+                        </center>
+                    </small>
+                </p>
+                <small>
+                    
+                </small>
+        </footer>
+    </body>
 </html>
