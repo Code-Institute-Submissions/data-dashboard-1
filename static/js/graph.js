@@ -9,6 +9,8 @@ function makeGraphs(error, fifaData) {
         show_age(ndx);
         show_position_of_player(ndx);
         show_wage(ndx);
+        overall_vs_potential(ndx);
+        show_stacked_chart(ndx)
         
         dc.renderAll();
 
@@ -153,33 +155,33 @@ function overall_vs_potential(ndx) {
         .brushOn(false);
 }
 
-//function show_stacked_chart(ndx) {
+function show_stacked_chart(ndx) {
 
-//    var name_dim = ndx.dimension(dc.pluck('name'));
-//    var spendByDay1 = name_dim.group().reduceSum(function(d) {
- //       if (d.store === '1') {
-  //          return +d.spend;
-  //      } else {
-  //          return 0;
-//        }
-////    });
- //   var spendByDay2 = name_dim.group().reduceSum(function(d) {
- //       if (d.store === '2') {
- //           return +d.spend;
- //       } else {
- //           return 0;
- //       }
- //   });
- //   var stackedChart = dc.barChart("#stacked-chart");
- //   stackedChart
-  //      .width(500)
-  //      .height(500)
-  //      .dimension(name_dim)
- //       .group(spendByDay1, "Day 1")
- //       .stack(spendByDay2, "Day 2")
- //       .x(d3.scale.ordinal())
- //       .xUnits(dc.units.ordinal)
- //       .legend(dc.legend().x(420).y(0).itemHeight(15).gap(5));
- //   stackedChart.margins().right = 100;
+    var name_dim = ndx.dimension(dc.pluck('name'));
+    var spendByDay1 = name_dim.group().reduceSum(function(d) {
+        if (d.store === '1') {
+            return +d.spend;
+        } else {
+            return 0;
+            }
+    });
+    var spendByDay2 = name_dim.group().reduceSum(function(d) {
+        if (d.store === '2') {
+            return +d.spend;
+        } else {
+            return 0;
+        }
+    });
+    var stackedChart = dc.barChart("#stacked-chart");
+    stackedChart
+        .width(500)
+        .height(500)
+        .dimension(name_dim)
+        .group(spendByDay1, "Day 1")
+        .stack(spendByDay2, "Day 2")
+        .x(d3.scale.ordinal())
+        .xUnits(dc.units.ordinal)
+        .legend(dc.legend().x(420).y(0).itemHeight(15).gap(5));
+    stackedChart.margins().right = 100;
 
-// };
+ };
