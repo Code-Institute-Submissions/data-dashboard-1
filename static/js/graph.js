@@ -8,7 +8,7 @@ function makeGraphs(error, fifaData) {
         show_nationality(ndx);
         show_age(ndx);
         show_position_of_player(ndx);
-        show_wage_vs_value(ndx);
+        show_wage(ndx);
         
         dc.renderAll();
 
@@ -68,8 +68,8 @@ function show_age(ndx) {
 
 function show_position_of_player(ndx) {
 	
-    var position_dim = ndx.dimension(dc.pluck('position'));
-    var total_position_of_players = position_dim.group().reduceSum(dc.pluck('club'));
+    var position_dim = ndx.dimension(dc.pluck('Name'));
+    var total_position_of_players = position_dim.group().reduceSum(dc.pluck('Position'));
     
     dc.pieChart('#position-of-player')
         .height(400)
@@ -82,14 +82,16 @@ function show_position_of_player(ndx) {
 
 /// LINECHART
 
-function show_wage_vs_value(ndx) {
-    var wage_dim = ndx.dimension(dc.pluck('Value'));
-    var total_wage_vs_value = wage_dim.group().reduceSum(dc.pluck('Wage'));
+function show_wage(ndx) {
+    
+    
+    var wage_dim = ndx.dimension(dc.pluck('Wage'));
+    var total_wage_of_footballers = wage_dim.group();
 
 
-    var width = document.getElementById('wage-vs-value').offsetWidth;
+    var width = document.getElementById('wage').offsetWidth;
 
-    dc.lineChart('#wage-vs-value')
+    dc.lineChart('#wage')
         .width(width)
         .height(300)
         .margins({
@@ -99,58 +101,57 @@ function show_wage_vs_value(ndx) {
             left: 50
         })
         .dimension(wage_dim)
-        .group(total_wage_vs_value)
+        .group(total_wage_of_footballers)
         .transitionDuration(500)
         .x(d3.scale.ordinal())
         .y(d3.scale.linear().domain([10000000, 67248485]))
-        .xAxisLabel("Wage vs Value of players")
+        .xAxisLabel("Wage of players")
         .yAxis().ticks(4);
 
 
  };
+ 
 ///COMPOSITE CHART
 
-//function overall_vs_potential(ndx) {
+function overall_vs_potential(ndx) {
 
- //   var overall_dim = ndx.dimension(dc.pluck('Overall'));
-//    
- //   var minDate = date_dim.bottom(1)[0].date;
-//    var maxDate = date_dim.top(1)[0].date;
+    var overall_dim = ndx.dimension(dc.pluck('Overall'));
 
-//    function overall_vs_potential(name) {
-  //      return function(d) {
- //           if (d.name === name) {
- //               return +d.spend;
- //           } else {
-  //              return 0;
-  //          }
-  ///      };
-  //  }
+
+    function overall_vs_potential(name) {
+        return function(d) {
+            if (d.name === name) {
+                return +d.spend;
+          } else {
+               return 0;
+           }
+       };
+    }
     
-  //  var overall = overall_dim.group().reduceSum(overall_vs_potential('Overall'));
-  //  var potential = overall_dim.group().reduceSum(overall_vs_potential('Potential'));
+    var overall = overall_dim.group().reduceSum(overall_vs_potential('Potential'));
+    var potential = overall_dim.group().reduceSum(overall_vs_potential('Overall'));
 
- //   var compositeChart = dc.compositeChart('#overall-vs-potential');
+    var compositeChart = dc.compositeChart('#overall-vs-potential');
 
- //   compositeChart
-//        .width(990)
- //       .height(200)
- //       .dimension(overall_dim)
-//        .x(d3.time.scale().domain([minDate, maxDate]))
- //       .yAxisLabel("Overall")
- //       .legend(dc.legend().x(80).y(20).itemHeight(13).gap(5))
-////        .renderHorizontalGridLines(true)
- //       .compose([
-//            dc.lineChart(compositeChart)
- //           .colors('green')
- //           .group(overall, 'Overall'),
- //           dc.lineChart(compositeChart)
- //           .colors('blue')
- //           .group(potential, 'potential'),
-//
-  //      ])
- //       .brushOn(false)
-//}//
+    compositeChart
+        .width(990)
+        .height(200)
+        .dimension(overall_dim)
+        .x(d3.scale.ordinal())
+        .yAxisLabel("Overall")
+        .legend(dc.legend().x(80).y(20).itemHeight(13).gap(5))
+        .renderHorizontalGridLines(true)
+        .compose([
+            dc.lineChart(compositeChart)
+            .colors('green')
+            .group(overall, 'Potential'),
+            dc.lineChart(compositeChart)
+            .colors('blue')
+            .group(potential, 'overall'),
+
+        ])
+        .brushOn(false);
+}
 
 //function show_stacked_chart(ndx) {
 
