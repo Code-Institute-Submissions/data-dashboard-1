@@ -108,3 +108,77 @@ function show_wage_vs_value(ndx) {
 
 
  };
+///COMPOSITE CHART
+
+//function overall_vs_potential(ndx) {
+
+ //   var overall_dim = ndx.dimension(dc.pluck('Overall'));
+//    
+ //   var minDate = date_dim.bottom(1)[0].date;
+//    var maxDate = date_dim.top(1)[0].date;
+
+//    function overall_vs_potential(name) {
+  //      return function(d) {
+ //           if (d.name === name) {
+ //               return +d.spend;
+ //           } else {
+  //              return 0;
+  //          }
+  ///      };
+  //  }
+    
+  //  var overall = overall_dim.group().reduceSum(overall_vs_potential('Overall'));
+  //  var potential = overall_dim.group().reduceSum(overall_vs_potential('Potential'));
+
+ //   var compositeChart = dc.compositeChart('#overall-vs-potential');
+
+ //   compositeChart
+//        .width(990)
+ //       .height(200)
+ //       .dimension(overall_dim)
+//        .x(d3.time.scale().domain([minDate, maxDate]))
+ //       .yAxisLabel("Overall")
+ //       .legend(dc.legend().x(80).y(20).itemHeight(13).gap(5))
+////        .renderHorizontalGridLines(true)
+ //       .compose([
+//            dc.lineChart(compositeChart)
+ //           .colors('green')
+ //           .group(overall, 'Overall'),
+ //           dc.lineChart(compositeChart)
+ //           .colors('blue')
+ //           .group(potential, 'potential'),
+//
+  //      ])
+ //       .brushOn(false)
+//}//
+
+//function show_stacked_chart(ndx) {
+
+//    var name_dim = ndx.dimension(dc.pluck('name'));
+//    var spendByDay1 = name_dim.group().reduceSum(function(d) {
+ //       if (d.store === '1') {
+  //          return +d.spend;
+  //      } else {
+  //          return 0;
+//        }
+////    });
+ //   var spendByDay2 = name_dim.group().reduceSum(function(d) {
+ //       if (d.store === '2') {
+ //           return +d.spend;
+ //       } else {
+ //           return 0;
+ //       }
+ //   });
+ //   var stackedChart = dc.barChart("#stacked-chart");
+ //   stackedChart
+  //      .width(500)
+  //      .height(500)
+  //      .dimension(name_dim)
+ //       .group(spendByDay1, "Day 1")
+ //       .stack(spendByDay2, "Day 2")
+ //       .x(d3.scale.ordinal())
+ //       .xUnits(dc.units.ordinal)
+ //       .legend(dc.legend().x(420).y(0).itemHeight(15).gap(5));
+ //   stackedChart.margins().right = 100;
+
+// };
