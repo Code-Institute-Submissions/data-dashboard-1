@@ -9,9 +9,8 @@ function makeGraphs(error, fifaData) {
         show_age(ndx); // Piechart 1
         show_position_of_player(ndx); //Piehcart 2
         show_wage(ndx); //Linechart
-      // overall_vs_potential(ndx); ///COMPOSITE CHART
-     //  show_stacked_chart(ndx); ///Stacked CHART
-        
+      //  overall_vs_potential(ndx); ///COMPOSITE CHART
+      // show_stacked_chart(ndx); ///Stacked CHART        
         dc.renderAll();
 
 }
@@ -70,48 +69,45 @@ function show_age(ndx) {
 
 function show_position_of_player(ndx) {
 	
-    var position_dim = ndx.dimension(dc.pluck('Name'));
-    var total_position_of_players = position_dim.group().reduceSum(dc.pluck('Position'));
-    
+    var position_dim = ndx.dimension(dc.pluck('Position'));
+
     dc.pieChart('#position-of-player')
         .height(400)
         .radius(90)
         .transitionDuration(1500)
         .dimension(position_dim)
-        .group(total_position_of_players);
+        .group(position_dim.group())
 
 }
 
 /// LINECHART
 
 function show_wage(ndx) {
-    var wageDim = ndx.dimension(dc.pluck("Wage"));
-    var show_wage = wageDim.group().reduce(
-        function(p, v) {
-            p.count++;
-            p.total += v.Wage;
-            p.average = p.total / p.count;
-            return p;
-        },
-        function(p, v) {
-            p.count--;
-            if (p.count == 0) {
-                p.total = 0;
-                p.average = 0;
-            }
-            else {
-                p.total -= v.Wage;
-                p.average = p.total / p.count;
-            }
-            return p;
-        },
-        function() {
-            return { count: 0, total: 0, average: 0 };
-        }
-    );
 
+    var width = document.getElementById("wage").offsetWidth;
+    var wageDim = ndx.dimension(function(d) {return d.Name;});
+    var anotherGroup = wageDim.group().reduceSum(function(d) {
+        let total = parseInt(d.Wage.replace(/[^\d]/g,''),10)
+        return total;
+    })
+    dc.lineChart('#wage')
+        .width(width)
+        .height(300)
+        .margins({
+            top: 10,
+            right: 50,
+            bottom: 30,
+            left: 50
+        })
+        .x(d3.scale.ordinal())
+        .xUnits(dc.units.ordinal)
+        .brushOn(false)
+        .xAxisLabel('Player')
+        .yAxisLabel('Wage')
+        .dimension(wageDim)
+        .group(anotherGroup);
 
-
+}
 
  
 ///COMPOSITE CHART
@@ -155,7 +151,6 @@ function overall_vs_potential(ndx) {
         ])
         .brushOn(false);
 }
-
 ///Stacked CHART
 
 function show_stacked_chart(ndx) {
@@ -187,4 +182,3 @@ function show_stacked_chart(ndx) {
         .legend(dc.legend().x(420).y(0).itemHeight(15).gap(5));
     stackedChart.margins().right = 100;
   }
-}
