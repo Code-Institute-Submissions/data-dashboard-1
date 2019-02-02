@@ -8,8 +8,8 @@ function makeGraphs(error, fifaData) {
         show_nationality(ndx); // Barchart
         show_age(ndx); // Piechart 1
         show_position_of_player(ndx); //Piehcart 2
-        show_wage(ndx) //Linechart
-        overall_vs_potential(ndx); ///COMPOSITE CHART
+        show_wage(ndx); //Linechart
+      //  overall_vs_potential(ndx); ///COMPOSITE CHART
         show_stacked_chart(ndx); ///Stacked CHART
         
         dc.renderAll();
@@ -85,11 +85,11 @@ function show_position_of_player(ndx) {
 /// LINECHART
 
 function show_wage(ndx) {
-    var testDim = ndx.dimension(dc.pluck("test_preparation_course"));
-    var math_by_test_prepGroup = testDim.group().reduce(
+    var wageDim = ndx.dimension(dc.pluck("Wage"));
+    var show_wage_per_player = wageDim.group().reduce(
         function(p, v) {
             p.count++;
-            p.total += v.math_score;
+            p.total += v.Wage;
             p.average = p.total / p.count;
             return p;
         },
@@ -100,7 +100,7 @@ function show_wage(ndx) {
                 p.average = 0;
             }
             else {
-                p.total -= v.math_score;
+                p.total -= v.Wage;
                 p.average = p.total / p.count;
             }
             return p;
@@ -186,5 +186,5 @@ function show_stacked_chart(ndx) {
         .xUnits(dc.units.ordinal)
         .legend(dc.legend().x(420).y(0).itemHeight(15).gap(5));
     stackedChart.margins().right = 100;
-
- };
+  }
+}
