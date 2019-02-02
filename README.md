@@ -4,7 +4,7 @@ My project is a website that has been based on a Fiffa dataset with the best pla
 I have created a scroll page Dashboard included with assets such as piechart and a barchart. My primary target
 is to create charts with information on avaliablity of viewing. 
 
-*Demo* 
+# Demo #
 
 [This is the link to the live page](https://data-dashboard-noellebrowne.c9users.io/index.html).
 
@@ -37,6 +37,8 @@ Technologies i used for this project is:
 1.HTML
 2.Javascript
 3.Bootstrap
+4.CDNJS
+
 
 # Deployment of my project #
 
@@ -75,7 +77,7 @@ as this worked most effective for me. I tested my website on diffrent computers 
 
 # Credit # 
 To all the different webpages I got my code which are [Kaggle website](https://www.kaggle.com/datasets "Kaggle Dataset website")
-,[CDNJS website](https://cdnjs.com/ "cdnjs webpage"), [google.com website](https://www.google.com/ "Google webpage")..
+,[CDNJS website](https://cdnjs.com/ "cdnjs webpage"), [google.com website](https://www.google.com/ "Google")..
 
 
 # Acknowledgements #
