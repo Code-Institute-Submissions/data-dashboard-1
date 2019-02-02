@@ -4,13 +4,13 @@ queue()
     
 function makeGraphs(error, fifaData) {
         var ndx = crossfilter(fifaData);
-        
 
-        show_nationality(ndx);
-        show_age(ndx);
-        show_position_of_player(ndx);
-        overall_vs_potential(ndx);
-        show_stacked_chart(ndx)
+        show_nationality(ndx); // Barchart
+        show_age(ndx); // Piechart 1
+        show_position_of_player(ndx); //Piehcart 2
+        show_wage(ndx) //Linechart
+        overall_vs_potential(ndx); ///COMPOSITE CHART
+        show_stacked_chart(ndx); ///Stacked CHART
         
         dc.renderAll();
 
@@ -84,6 +84,31 @@ function show_position_of_player(ndx) {
 
 /// LINECHART
 
+function show_wage(ndx) {
+    var testDim = ndx.dimension(dc.pluck("test_preparation_course"));
+    var math_by_test_prepGroup = testDim.group().reduce(
+        function(p, v) {
+            p.count++;
+            p.total += v.math_score;
+            p.average = p.total / p.count;
+            return p;
+        },
+        function(p, v) {
+            p.count--;
+            if (p.count == 0) {
+                p.total = 0;
+                p.average = 0;
+            }
+            else {
+                p.total -= v.math_score;
+                p.average = p.total / p.count;
+            }
+            return p;
+        },
+        function() {
+            return { count: 0, total: 0, average: 0 };
+        }
+    );
 
 
 
@@ -131,6 +156,8 @@ function overall_vs_potential(ndx) {
         .brushOn(false);
 }
 
+///Stacked CHART
+
 function show_stacked_chart(ndx) {
 
     var name_dim = ndx.dimension(dc.pluck('name'));
@@ -153,49 +180,11 @@ function show_stacked_chart(ndx) {
         .width(500)
         .height(500)
         .dimension(name_dim)
-        .group(spendByDay1, "Day 1")
-        .stack(spendByDay2, "Day 2")
+        .group(spendByDay1, "Preferred Foot")
+        .stack(spendByDay2, "Weak Foot")
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
         .legend(dc.legend().x(420).y(0).itemHeight(15).gap(5));
     stackedChart.margins().right = 100;
 
  };
- 
- 
- /// new chart
- 
- /*Race/Ethnicity Bar chart*/
-function show_skills(ndx) {
-    var skillSet = d3.scale.ordinal()
-        .domain(["Crossing: 81"
-        ,"Finishing: 84",
-    "HeadingAccuracy: 61",
-    "ShortPassing: 89",
-    "Volleys: 80",
-    "Dribbling: 95",
-    "Curve: 83",,
-    "Marking: 34",])
-        .range(["red", "orange", "yellow", "green", "blue","pink","purple","black",]);
-    var skillsDim = ndx.dimension(function(d) {
-        return [d.race_ethnicity];
-    });
-    var race_ethnicityMix = race_ethnicityDim.group();
-
-    dc.barChart("#race_ethnicity-graph")
-        .width(350)
-        .height(250)
-        .margins({ top: 10, right: 50, bottom: 30, left: 50 })
-        .colorAccessor(function(d, i) { return i; })
-        .colors(raceColors)
-        .dimension(race_ethnicityDim)
-        .group(race_ethnicityMix)
-        .transitionDuration(500)
-        .x(d3.scale.ordinal())
-        .xUnits(dc.units.ordinal)
-        .elasticY(true)
-        .xAxisLabel("Race/Ethnicity")
-        .yAxis().ticks(5);
-}
-
- 
