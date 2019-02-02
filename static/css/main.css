@@ -1,19 +1,17 @@
 
-
 .row {
-  display: flex;
+    display: flex;
 }
 
 .column {
-  flex: 50%;
+    flex: 50%;
 }
 
 .center {
-  text-align: center;
-  margin: 0 50px 0 50px;
+    text-align: center;
+    margin: 0 50px 0 50px;
 }
 
 .piechart {
-  width:100%;
+    width: 100%;
 }
-

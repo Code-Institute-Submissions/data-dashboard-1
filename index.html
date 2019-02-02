@@ -1,187 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Data Analysis Of Fifa 19 Players</title>
-        <link rel="stylesheet" href="static/css/bootstrap.min.css" type="text/css" />
-        <link rel="stylesheet" href="static/css/dc.min.css" type="text/css" />
-        <link rel="stylesheet" href="static/css/main.css" type="text/css" />
-        <script type="text/javascript" src="static/js/d3.min.js"></script>
-        <script type="text/javascript" src="static/js/crossfilter.min.js"></script>
-        <script type="text/javascript" src="static/js/dc.min.js"></script>
-        <script type="text/javascript" src="static/js/queue.min.js"></script>
-        <script type="text/javascript" src="static/js/graph.js"></script>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Data Analysis Of Fifa 19 Players</title>
+    <link rel="stylesheet" href="static/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="static/css/dc.min.css" type="text/css" />
+    <link rel="stylesheet" href="static/css/main.css" type="text/css" />
+    <script type="text/javascript" src="static/js/d3.min.js"></script>
+    <script type="text/javascript" src="static/js/crossfilter.min.js"></script>
+    <script type="text/javascript" src="static/js/dc.min.js"></script>
+    <script type="text/javascript" src="static/js/queue.min.js"></script>
+    <script type="text/javascript" src="static/js/graph.js"></script>
+</head>
 
-    <body>
-
-        <!----- navbar ------>
-        
-        
-        <nav class="navbar navbar-light" style="background-color: #05ffb0;">
-            <p class="navbar-text">
-              <center style="color:white ; margin-top:15px">
-                Fifa 2019 10 Players Data Dashboard
-              </center>
-            </p>
-        </nav>
-        
-        
-        <!----- graph.js charts ------>
-
-        <main>
-            
-            <div style="text-align:center">
-                <h1 class="section-heading">
-                    FIFA 2019 10 Players Statics
-                </h1>
+<body>
+    <!----- navbar ------>
+    <nav class="navbar navbar-light" style="background-color: #05ffb0;">
+        <p class="navbar-text-center" style="color:white ; margin-top:15px">Fifa 2019 10 Players Data Dashboard</p>
+    </nav>
+    <!----- graph.js charts ------>
+    <main>
+        <div style="text-align:center">
+            <h1 class="section-heading">
+            FIFA 2019 10 Players Statics
+         </h1>
+        </div>
+        <!----- Pie chart 1------>
+        <div class="container">
+            <div class="row">
+                <div class="column center">
+                    <h2 class="section-heading col-xs-12 col-sm-12 text-center">
+                  Age of players
+               </h2>
+                    <div id="age-of-players" class="piechart">
+                    </div>
+                    <p style="position:relative">
+                        This is a pie chart designed to show the age diffrences between the 10 football players.
+                    </p>
+                </div>
+                <!----- Pie chart 2------>
+                <div class="column center">
+                    <h2 class="section-heading col-xs-12 col-sm-12 text-center">
+                  Position of players
+               </h2>
+                    <div id="position-of-player" class="piechart">
+                    </div>
+                    <p style="position:relative">
+                        This is a second chart to show where the positions on the field players play.
+                    </p>
+                </div>
             </div>
-
-            <!----- Pie chart 1------>
-            
-            
+        </div>
+        <!----- Bar chart------>
+        <section class="section center">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-xs-12 col-sm-12 ">
+                        <div id="nationality">
+                        </div>
+                    </div>
+                </div>
+                <h5 class="section-heading text-center col-xs-12 col-sm-6 text-center">
+            </h5>
+                <p style="text-align:center">
+                </p>
+            </div>
+        </section>
+        <!----- Line Chart ------>
+        <section class="section center">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-xs-12 col-sm-12 ">
+                        <div id="wage">
+                        </div>
+                    </div>
+                </div>
+                <h4 class="section-heading text-center col-xs-12 col-sm-6 text-center">
+               This is a Linechart created to show the wages between the lowest earnings and the higest earnings of football players.
+               From the graph we can see that L.Messi earnings are the highest at €565,000.The lowest is €94,000 that J.Oblack earns as he is a goalkeeper.
+            </h4>
+                    <p style="text-align:center"></p>
+            </div>
+        </section>
+        <!----- Composite Chart------>
+        <section class="section center">
             <div class="container">
                 <div class="row">
-                    <div class="column center">
-                        <h2 class="section-heading col-xs-12 col-sm-12 text-center">
-                            Age of players
-                        </h2>
-                        <div id="age-of-players" class="piechart">
-                        </div>
-                        <p style="position:relative">
-                            This is a pie chart designed to show the age diffrences between the 10 football players.
-                        </p>                        
-                    </div>
-                    
-                    <!----- Pie chart 2------>
-                    
-                    
-                    <div class="column center">
-                        <h2 class="section-heading col-xs-12 col-sm-12 text-center">
-                            Position of players
-                        </h2>
-                        <div id="position-of-player" class="piechart">
-                        </div>
-                        <p style="position:relative">
-                            This is a second chart to show where the positions on the field  players play.
-                        </p>                                                
-                    </div>
-                </div>
-            </div>             
-
-
-
-
-            <!----- Bar chart------>
-            
-            <section class="section center">
-                <div class="container">
-                    <div class="row ">
-                        <div class="col-xs-12 col-sm-12 ">
-                            <div id="nationality">
-                            </div>
-                        </div>
-                    </div>
-                            <h5 class="section-heading text-center col-xs-12 col-sm-6 text-center">
-                
-                            </h5>
-
-                            <p style="text-align:center">
-                              
-                            </p>
-                    </div>
-
-            </section>
-
-            <!----- Line Chart ------>
-            
-            <section class="section center">
-                <div class="container">
-                    <div class="row ">
-                        <div class="col-xs-12 col-sm-12 ">
-                            <div id="wage">
-                            </div>
-                        </div>
-                    </div>
-                            <h4 class="section-heading text-center col-xs-12 col-sm-6 text-center">
-                                    This is a Linechart created to show the wages between the lowest earnings and the higest earnings of football players.
-                                    From the graph we can see that L.Messi earnings are the highest at €565,000.The lowest is €94,000 that J.Oblack earns as he is a goalkeeper.
-                            </h4>
-                            <center>
-                            <p style="text-align:center">
-                              
-                            </p>
-                            </center>
-                    </div>
-
-            </section>
-    
-            <!----- Composite Chart------>
-            
-            
-            <section class="section center">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-12">
-                            <h2 class="section-heading text-center">
-                                Composite Chart
-                            </h2>
-                            <div id="overall-vs-potential"> 
-                            </div>
-                        </div>
-                    </div>
-                     <h4 class="section-heading text-center col-xs-12 col-sm-6 text-center">
-                                    This is a Linechart created to show the wages between the lowest earnings and the higest earnings of football players.
-                                    From the graph we can see that L.Messi earnings are the highest at €565,000.The lowest is €94,000 that J.Oblack earns as he is a goalkeeper.
-                            </h4>
-                            <center>
-                            <p style="text-align:center">
-                              
-                            </p>
-                            </center>
-                </div>
-            </section> 
-            
-            
-            <!----- Stacked Chart------>
-            
-            
-            <section class="section center">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-12">
-                            <h2 class="section-heading text-center">
-                                Stacked bar Chart
-                            </h2>
-                            <div id="stacked-chart">
-                            </div> 
+                    <div class="col-xs-12 col-sm-12">
+                        <h2 class="section-heading text-center">
+                     Composite Chart
+                  </h2>
+                        <div id="overall-vs-potential">
                         </div>
                     </div>
                 </div>
-            </section>
-            
-            
-            
-        
-        
+                <h4 class="section-heading text-center col-xs-12 col-sm-6 text-center">
+               This is a Linechart created to show the wages between the lowest earnings and the higest earnings of football players.
+               From the graph we can see that L.Messi earnings are the highest at €565,000.The lowest is €94,000 that J.Oblack earns as he is a goalkeeper.
+            </h4>
+            </div>
+        </section>
+        <!----- Stacked Chart------>
+        <section class="section center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                        <h2 class="section-heading text-center">
+                     Stacked bar Chart
+                  </h2>
+                        <div id="stacked-chart">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!----- Footer ------>
-        
-        
         <footer class="footer text-center" style="background-color: #05ffb0;">
             <div class="container">
                 <p class="footer">
-                    <small>
-                        <center style="color:white ; margin-top:15px">
-                        COPYRIGHT © 2019. ALL RIGHTS RESERVED.
-                        </center>
-                    </small>
-                </p>
-                <small>
-                    
-                </small>
+         <p class="center" style="color:white ; margin-top:15px">COPYRIGHT © 2019. ALL RIGHTS RESERVED.</p>
+         </div>
         </footer>
-    </body>
+        </main>
+</body>
 </html>
