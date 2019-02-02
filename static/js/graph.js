@@ -4,11 +4,11 @@ queue()
     
 function makeGraphs(error, fifaData) {
         var ndx = crossfilter(fifaData);
+        
 
         show_nationality(ndx);
         show_age(ndx);
         show_position_of_player(ndx);
-        show_wage(ndx);
         overall_vs_potential(ndx);
         show_stacked_chart(ndx)
         
@@ -84,34 +84,10 @@ function show_position_of_player(ndx) {
 
 /// LINECHART
 
-function show_wage(ndx) {
-    
-    
-    var wage_dim = ndx.dimension(dc.pluck('Wage'));
-    var total_wage_of_footballers = wage_dim.group();
 
 
-    var width = document.getElementById('wage').offsetWidth;
-
-    dc.lineChart('#wage')
-        .width(width)
-        .height(300)
-        .margins({
-            top: 10,
-            right: 50,
-            bottom: 30,
-            left: 50
-        })
-        .dimension(wage_dim)
-        .group(total_wage_of_footballers)
-        .transitionDuration(500)
-        .x(d3.scale.ordinal())
-        .y(d3.scale.linear().domain([10000000, 67248485]))
-        .xAxisLabel("Wage of players")
-        .yAxis().ticks(4);
 
 
- };
  
 ///COMPOSITE CHART
 
@@ -185,3 +161,41 @@ function show_stacked_chart(ndx) {
     stackedChart.margins().right = 100;
 
  };
+ 
+ 
+ /// new chart
+ 
+ /*Race/Ethnicity Bar chart*/
+function show_skills(ndx) {
+    var skillSet = d3.scale.ordinal()
+        .domain(["Crossing: 81"
+        ,"Finishing: 84",
+    "HeadingAccuracy: 61",
+    "ShortPassing: 89",
+    "Volleys: 80",
+    "Dribbling: 95",
+    "Curve: 83",,
+    "Marking: 34",])
+        .range(["red", "orange", "yellow", "green", "blue","pink","purple","black",]);
+    var skillsDim = ndx.dimension(function(d) {
+        return [d.race_ethnicity];
+    });
+    var race_ethnicityMix = race_ethnicityDim.group();
+
+    dc.barChart("#race_ethnicity-graph")
+        .width(350)
+        .height(250)
+        .margins({ top: 10, right: 50, bottom: 30, left: 50 })
+        .colorAccessor(function(d, i) { return i; })
+        .colors(raceColors)
+        .dimension(race_ethnicityDim)
+        .group(race_ethnicityMix)
+        .transitionDuration(500)
+        .x(d3.scale.ordinal())
+        .xUnits(dc.units.ordinal)
+        .elasticY(true)
+        .xAxisLabel("Race/Ethnicity")
+        .yAxis().ticks(5);
+}
+
+ 
