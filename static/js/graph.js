@@ -9,8 +9,8 @@ function makeGraphs(error, fifaData) {
         show_age(ndx); // Piechart 1
         show_position_of_player(ndx); //Piehcart 2
         show_wage(ndx); //Linechart
-      //  overall_vs_potential(ndx); ///COMPOSITE CHART
-        show_stacked_chart(ndx); ///Stacked CHART
+      // overall_vs_potential(ndx); ///COMPOSITE CHART
+     //  show_stacked_chart(ndx); ///Stacked CHART
         
         dc.renderAll();
 
@@ -78,15 +78,15 @@ function show_position_of_player(ndx) {
         .radius(90)
         .transitionDuration(1500)
         .dimension(position_dim)
-        .group(total_position_of_players)
+        .group(total_position_of_players);
 
-};
+}
 
 /// LINECHART
 
 function show_wage(ndx) {
     var wageDim = ndx.dimension(dc.pluck("Wage"));
-    var show_wage_per_player = wageDim.group().reduce(
+    var show_wage = wageDim.group().reduce(
         function(p, v) {
             p.count++;
             p.total += v.Wage;
@@ -160,7 +160,7 @@ function overall_vs_potential(ndx) {
 
 function show_stacked_chart(ndx) {
 
-    var name_dim = ndx.dimension(dc.pluck('name'));
+    var name_dim = ndx.dimension(dc.pluck('Name'));
     var spendByDay1 = name_dim.group().reduceSum(function(d) {
         if (d.store === '1') {
             return +d.spend;
