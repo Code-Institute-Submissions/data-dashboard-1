@@ -1,5 +1,6 @@
 .row {
     display: flex;
+    padding: 25px;
 }
 
 .column {
@@ -15,3 +16,6 @@
     width: 100%;
 }
 
+.section {
+    padding: 60px 50px;
+}
