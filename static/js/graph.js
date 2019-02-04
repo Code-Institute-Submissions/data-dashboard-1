@@ -44,56 +44,79 @@ function show_nationality(ndx) {
 /// PIECHART 1
 
 function show_age(ndx) {
-  var age_dim = ndx.dimension(dc.pluck("Name"));
-  var total_age_of_players = age_dim.group().reduceSum(dc.pluck("Age"));
 
-  dc.pieChart("#age-of-players")
-    .height(400)
-    .radius(90)
-    .transitionDuration(1500)
-    .dimension(age_dim)
-    .group(total_age_of_players);
+    var age_dim = ndx.dimension(dc.pluck('Name'));
+    var total_age_of_players = age_dim.group().reduceSum(dc.pluck('Age'));
+
+    dc.pieChart('#age-of-players')
+        .height(325)
+        .radius(130)
+        .transitionDuration(1500)
+        .dimension(age_dim)
+        .group(total_age_of_players)
+        .legend(
+          dc
+            .legend()
+            .x(0)
+            .y(0)
+            .itemHeight(15)
+            .gap(5)
+        );    
 }
 
 /// PIECHART 2
 
 function show_position_of_player(ndx) {
-  var position_dim = ndx.dimension(dc.pluck("Position"));
 
-  dc.pieChart("#position-of-player")
-    .height(400)
-    .radius(90)
-    .transitionDuration(1500)
-    .dimension(position_dim)
-    .group(position_dim.group());
+    var position_dim = ndx.dimension(dc.pluck('Position'));
+
+    dc.pieChart('#position-of-player')
+        .height(325)
+        .radius(130)
+        .transitionDuration(1500)
+        .dimension(position_dim)
+        .group(position_dim.group())
+        .legend(
+           dc
+             .legend()
+              .x(10)
+              .y(0)
+              .itemHeight(15)
+              .gap(5)
+        );
+
 }
 
 /// LINECHART
 
 function show_wage(ndx) {
-  var width = document.getElementById("wage").offsetWidth;
-  var wageDim = ndx.dimension(dc.pluck("Name"));
-  var anotherGroup = wageDim.group().reduceSum(parseCurrency);
 
-  console.log("WAGE", anotherGroup);
-  dc.lineChart("#wage")
-    .width(width)
-    .height(300)
-    .margins({
-      top: 10,
-      right: 50,
-      bottom: 30,
-      left: 50
-    })
-    .x(d3.scale.ordinal())
-    .xUnits(dc.units.ordinal)
-    .brushOn(false)
-    .xAxisLabel("Player")
-    .yAxisLabel("Wage")
-    .dimension(wageDim)
-    .group(anotherGroup);
+    var width = document.getElementById("wage").offsetWidth;
+    var wageDim = ndx.dimension(function(d) {
+        return d.Name;
+    });
+    var anotherGroup = wageDim.group().reduceSum(function(d) {
+        let total = parseInt(d.Wage.replace(/[^\d]/g, ''), 10);
+        return total;
+    });
+    dc.lineChart('#wage')
+        .width(width)
+        .height(300)
+        .margins({
+            top: 10,
+            right: 50,
+            bottom: 50,
+            left: 50
+        })
+        .x(d3.scale.ordinal())
+        .xUnits(dc.units.ordinal)
+        .brushOn(false)
+        .xAxisLabel('Player')
+        .yAxisLabel('Wage')
+        .dimension(wageDim)
+        .group(anotherGroup);
+
 }
-
 ///COMPOSITE CHART
 
 function overall_vs_potential(ndx, data) {
