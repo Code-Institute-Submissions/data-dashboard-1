@@ -21,6 +21,34 @@ My Dashboard will be a 4 chart dashboard created with two pie charts, one bar ch
 
 My goal was to make information accessible on the site and user friendly, as shown through the charts I have created.
 
+# Wire frames I designed ### 
+
+Here I have included four wire frames from where I based the developement of my website. 
+There is a chart wireframe,Music wireframe, Gallery wireframe and a contact wireframe.
+They are in the assets folder, inside a images folder under Wireframe photos.
+
+My design process for me was to draw my wireframes and add them to my project.
+
+![rough drawing](# Wire frames I designed ### 
+
+Here I have included four wire frames from where I based the developement of my website. 
+There is a Homepage wireframe,Music wireframe, Gallery wireframe and a contact wireframe.
+They are in the assets folder, inside a images folder under Wireframe photos.
+
+My design process for me was to draw my wireframes and add them to my project.
+
+![Homepage](# Wire frames I designed ### 
+
+Here I have included four wire frames from where I based the developement of my website. 
+There is a Homepage wireframe,Music wireframe, Gallery wireframe and a contact wireframe.
+They are in the assets folder, inside a images folder under Wireframe photos.
+
+My design process for me was to draw my wireframes and add them to my project.
+
+![rough chart drawing](https://github.com/noellebrowne/data-dashboard/blob/master/assets/IMG_5469.jpg "Wireframe 1 - rough chart drawing")
+![first chart]( "Wireframe 2 - first chart drawing")
+![second chart]( "Wireframe 3 - second chart drawing")
+
 # Planning of my website: #
 
 When I decided to plan my website, I looked at artists that I thought would help me and give me an idea of a layout of what should be included in my page,
