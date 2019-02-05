@@ -17,89 +17,16 @@ function makeGraphs(error, fifaData) {
 // BARCHART
 
 function show_nationality(ndx) {
-  var nationality_dim = ndx.dimension(dc.pluck("Nationality"));
-  var total_nationality_of_footballers = nationality_dim.group();
 
-  var width = document.getElementById("nationality").offsetWidth;
+    var nationality_dim = ndx.dimension(dc.pluck('Nationality'));
+    var total_nationality_of_footballers = nationality_dim.group();
 
-  dc.barChart("#nationality")
-    .width(width)
-    .height(300)
-    .margins({
-      top: 10,
-      right: 50,
-      bottom: 30,
-      left: 50
-    })
-    .dimension(nationality_dim)
-    .group(total_nationality_of_footballers)
-    .transitionDuration(500)
-    .x(d3.scale.ordinal())
-    .xUnits(dc.units.ordinal)
-    .xAxisLabel("Players Nationality")
-    .yAxis()
-    .ticks(10);
-}
 
-/// PIECHART 1
 
-function show_age(ndx) {
+    var width = document.getElementById("nationality").offsetWidth;
 
-    var age_dim = ndx.dimension(dc.pluck('Name'));
-    var total_age_of_players = age_dim.group().reduceSum(dc.pluck('Age'));
 
-    dc.pieChart('#age-of-players')
-        .height(325)
-        .radius(130)
-        .transitionDuration(1500)
-        .dimension(age_dim)
-        .group(total_age_of_players)
-        .legend(
-          dc
-            .legend()
-            .x(0)
-            .y(0)
-            .itemHeight(15)
-            .gap(5)
-        );    
-}
-
-/// PIECHART 2
-
-function show_position_of_player(ndx) {
-
-    var position_dim = ndx.dimension(dc.pluck('Position'));
-
-    dc.pieChart('#position-of-player')
-        .height(325)
-        .radius(130)
-        .transitionDuration(1500)
-        .dimension(position_dim)
-        .group(position_dim.group())
-        .legend(
-           dc
-             .legend()
-              .x(10)
-              .y(0)
-              .itemHeight(15)
-              .gap(5)
-        );
-
-}
-
-/// LINECHART
-
-function show_wage(ndx) {
-
-    var width = document.getElementById("wage").offsetWidth;
-    var wageDim = ndx.dimension(function(d) {
-        return d.Name;
-    });
-    var anotherGroup = wageDim.group().reduceSum(function(d) {
-        let total = parseInt(d.Wage.replace(/[^\d]/g, ''), 10);
-        return total;
-    });
-    dc.lineChart('#wage')
+    dc.barChart("#nationality")
         .width(width)
         .height(300)
         .margins({
@@ -108,18 +35,99 @@ function show_wage(ndx) {
             bottom: 50,
             left: 50
         })
+        .dimension(nationality_dim)
+        .group(total_nationality_of_footballers)
+        .transitionDuration(500)
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
-        .brushOn(false)
-        .xAxisLabel('Player')
-        .yAxisLabel('Wage')
-        .dimension(wageDim)
-        .group(anotherGroup);
+        .xAxisLabel("Players Nationality")
+        .yAxis().ticks(10);
+};
+/// PIECHART 1
 
+function show_age(ndx) {
+  var age_dim = ndx.dimension(dc.pluck("Name"));
+  var total_age_of_players = age_dim.group().reduceSum(dc.pluck("Age"));
+
+  dc.pieChart("#age-of-players")
+    .height(325)
+    .radius(130)
+    .externalLabels(30)
+    .externalRadiusPadding(50)
+    .transitionDuration(1500)
+    .dimension(age_dim)
+    .group(total_age_of_players)
+    .legend(
+      dc
+        .legend()
+        .x(0)
+        .y(0)
+        .itemHeight(15)
+        .gap(5)
+    )
+    .on("pretransition", function(chart) {
+      chart.selectAll("text.pie-slice").text(function(d) {
+        console.log("DATA", d)
+        return (
+          d.data.value +
+          " years" 
+        );
+      });
+    });
+}
+
+/// PIECHART 2
+
+function show_position_of_player(ndx) {
+  var position_dim = ndx.dimension(dc.pluck("Position"));
+
+  dc.pieChart("#position-of-player")
+    .height(325)
+    .radius(130)
+    .transitionDuration(1500)
+    .dimension(position_dim)
+    .group(position_dim.group())
+    .legend(
+      dc
+        .legend()
+        .x(10)
+        .y(0)
+        .itemHeight(15)
+        .gap(5)
+    );
+}
+
+/// LINECHART
+
+function show_wage(ndx) {
+  var width = document.getElementById("wage").offsetWidth;
+  var wageDim = ndx.dimension(function(d) {
+    return d.Name;
+  });
+  var anotherGroup = wageDim.group().reduceSum(function(d) {
+    let total = parseInt(d.Wage.replace(/[^\d]/g, ""), 10);
+    return total;
+  });
+  dc.lineChart("#wage")
+    .width(width)
+    .height(300)
+    .margins({
+      top: 10,
+      right: 50,
+      bottom: 50,
+      left: 50
+    })
+    .x(d3.scale.ordinal())
+    .xUnits(dc.units.ordinal)
+    .brushOn(false)
+    .xAxisLabel("Player")
+    .yAxisLabel("Wage")
+    .dimension(wageDim)
+    .group(anotherGroup);
 }
 ///COMPOSITE CHART
 
-function overall_vs_potential(ndx, data) {
+function overall_vs_potential(ndx, fifaData) {
   var overall_dim = ndx.dimension(dc.pluck("Name"));
   var overall = overall_dim.group().reduceSum(d => {
     console.log("Overall", d.Overall);
@@ -199,12 +207,18 @@ function show_stacked_chart(ndx) {
     .stack(valueGroup, "Value")
     .stack(wageGroup, "Wage")
     .x(d3.scale.ordinal())
+    .margins({
+      top: 0,
+      right:0,
+      bottom: 0,
+      left: 70
+    })
     .xUnits(dc.units.ordinal)
     .legend(
       dc
         .legend()
-        .x(50)
-        .y(0)
+        .x(130)
+        .y(50)
         .itemHeight(15)
         .gap(5)
     );
