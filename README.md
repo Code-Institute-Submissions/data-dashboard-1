@@ -17,7 +17,6 @@ My Dashboard will be a 4 chart dashboard created with two pie charts, one bar ch
 * As a user type, I would like to create a chart to show the nationality of the football players for users to views on my dashboard. 
 * As a user type, I would like to achieve a goal of creating a linechart for users to access on my dashobard. 
 
-*UX*
 
 My goal was to make information accessible on the site and user friendly, as shown through the charts I have created.
 
