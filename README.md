@@ -20,6 +20,18 @@ My Dashboard will be a 4 chart dashboard created with two pie charts, one bar ch
 
 My goal was to make information accessible on the site and user friendly, as shown through the charts I have created.
 
+# Wire frames I designed ### 
+
+Here I have included three wire frames from where I based the developement of my website. 
+There is a rough chart wireframe i drew first, then a second wireframe its a rough sketch of a barchart,linechart,composite chart and a stacked barchart and the last one is the third chart drawing which was an idea what my website would look like.
+They are in the assets folder.
+
+My design process for me was to draw my wireframes and add them to my project.
+
+1.[First rough chart wireframe](https://github.com/noellebrowne/data-dashboard/blob/master/assets/IMG_5466-1.jpg "Wireframe 1 - rough chart drawing")
+2.[second rough chart wireframe](https://github.com/noellebrowne/data-dashboard/blob/master/assets/IMG_5469.jpg "Wireframe 2 - first chart drawing")
+3.[third chart drawing](https://github.com/noellebrowne/data-dashboard/blob/master/assets/IMG_5467-1.jpg "Wireframe 3 - second chart drawing")
+
 # Planning of my website: #
 
 When I decided to plan my website, I looked at artists that I thought would help me and give me an idea of a layout of what should be included in my page,
@@ -29,16 +41,15 @@ for design of the charts, colour scheme of the charts,and the flow of my page. W
 I researched diffrent type of charts and dashboards to look at diffrent colour schemes I could use as well as diffrent charts and there size and placement on the page.Most charts 
 are well structured and simple but easy to use and find your way around so I wanted mine to be user friendly. 
 
- # Technologies #
 
 Technologies I used for this project is: 
-1.HTML
-2.Javascript
-3.Bootstrap
-4.CDNJS
-5.Github
-6.cloud9
-7.kaggle
+HTML,
+Javascript
+,Bootstrap
+,CDNJS
+,Github
+,cloud9
+,kaggle
 
 
 # Deployment of my project #
@@ -75,11 +86,14 @@ as this worked most effective for me.
      
 # Credit # 
 To all the different webpages I got my code which are [Kaggle website](https://www.kaggle.com/datasets "Kaggle Dataset website")
-,[CDNJS website](https://cdnjs.com/ "cdnjs webpage"), [google.com website](https://www.google.com/ "Google") and[bootswatch website](https://bootswatch.com/3/ "bootswatch")
+,[CDNJS website](https://cdnjs.com/ "cdnjs webpage"), [google.com](https://www.google.com/ "Google") and [bootswatch website](https://bootswatch.com/3/ "bootswatch")
 
 
 # Acknowledgements #
  for this project I got inspiration from dashboards and also google images I googled on google.com for my colour scheme and background colour for my dashboard.
+
+
+
 
 
 
