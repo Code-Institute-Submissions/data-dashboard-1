@@ -67,7 +67,7 @@ function show_age(ndx) {
     )
     .on("pretransition", function(chart) {
       chart.selectAll("text.pie-slice").text(function(d) {
-        ("DATA", d);
+        console.log("DATA", d)
         return (
           d.data.value +
           " years" 
@@ -75,6 +75,7 @@ function show_age(ndx) {
       });
     });
 }
+
 
 /// PIECHART 2
 
