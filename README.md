@@ -29,7 +29,7 @@ for design of the charts, colour scheme of the charts,and the flow of my page. W
 I researched diffrent type of charts and dashboards to look at diffrent colour schemes I could use as well as diffrent charts and there size and placement on the page.Most charts 
 are well structured and simple but easy to use and find your way around so I wanted mine to be user friendly. 
 
-*Technologies*
+ # Technologies #
 
 Technologies I used for this project is: 
 1.HTML
