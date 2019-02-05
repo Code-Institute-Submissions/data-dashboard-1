@@ -9,7 +9,7 @@ function makeGraphs(error, fifaData) {
   show_age(ndx); // Piechart 1
   show_position_of_player(ndx); //Piehcart 2
   show_wage(ndx); //Linechart
-  overall_vs_potential(ndx, fifaData); ///COMPOSITE CHART
+  overall_vs_potential(ndx); ///COMPOSITE CHART
   show_stacked_chart(ndx); ///Stacked CHART
   dc.renderAll();
 }
@@ -67,7 +67,7 @@ function show_age(ndx) {
     )
     .on("pretransition", function(chart) {
       chart.selectAll("text.pie-slice").text(function(d) {
-        console.log("DATA", d)
+        ("DATA", d);
         return (
           d.data.value +
           " years" 
@@ -127,18 +127,18 @@ function show_wage(ndx) {
 }
 ///COMPOSITE CHART
 
-function overall_vs_potential(ndx, fifaData) {
+function overall_vs_potential(ndx) {
   var overall_dim = ndx.dimension(dc.pluck("Name"));
   var overall = overall_dim.group().reduceSum(d => {
-    console.log("Overall", d.Overall);
+    ("Overall", d.Overall);
     return d.Overall;
   });
   var potential = overall_dim.group().reduceSum(d => {
-    console.log("Potential", d.Potential);
+    ("Potential", d.Potential);
     return d.Potential;
   });
 
-  console.log(
+  (
     overall_dim.top(Infinity).map(function(d) {
       return d.Name;
     })
