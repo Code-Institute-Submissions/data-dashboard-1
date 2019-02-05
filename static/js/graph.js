@@ -52,7 +52,6 @@ function show_age(ndx) {
   dc.pieChart("#age-of-players")
     .height(325)
     .radius(130)
-    .externalLabels(30)
     .externalRadiusPadding(50)
     .transitionDuration(1500)
     .dimension(age_dim)
@@ -69,13 +68,11 @@ function show_age(ndx) {
       chart.selectAll("text.pie-slice").text(function(d) {
         console.log("DATA", d)
         return (
-          d.data.value +
-          " years" 
+          d.data.value
         );
       });
     });
 }
-
 
 /// PIECHART 2
 
