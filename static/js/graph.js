@@ -52,23 +52,24 @@ function show_age(ndx) {
   dc.pieChart("#age-of-players")
     .height(325)
     .radius(130)
-    .externalRadiusPadding(50)
+    .externalRadiusPadding(03)
     .transitionDuration(1500)
     .dimension(age_dim)
     .group(total_age_of_players)
     .legend(
       dc
         .legend()
-        .x(0)
+        .x(2)
         .y(0)
         .itemHeight(15)
         .gap(5)
     )
     .on("pretransition", function(chart) {
       chart.selectAll("text.pie-slice").text(function(d) {
-        console.log("DATA", d)
+        ("DATA", d);
         return (
-          d.data.value
+          d.data.value +
+          " yrs"
         );
       });
     });
@@ -82,13 +83,14 @@ function show_position_of_player(ndx) {
   dc.pieChart("#position-of-player")
     .height(325)
     .radius(130)
+    .externalRadiusPadding(03)
     .transitionDuration(1500)
     .dimension(position_dim)
     .group(position_dim.group())
     .legend(
       dc
         .legend()
-        .x(10)
+        .x(15)
         .y(0)
         .itemHeight(15)
         .gap(5)
