@@ -52,28 +52,26 @@ function show_age(ndx) {
   dc.pieChart("#age-of-players")
     .height(325)
     .radius(130)
-    .externalRadiusPadding(03)
+    .externalLabels(0)
+    //.externalRadiusPadding(50)
     .transitionDuration(1500)
     .dimension(age_dim)
     .group(total_age_of_players)
     .legend(
       dc
         .legend()
-        .x(2)
+        .x(0)
         .y(0)
         .itemHeight(15)
         .gap(5)
     )
     .on("pretransition", function(chart) {
       chart.selectAll("text.pie-slice").text(function(d) {
-        ("DATA", d);
-        return (
-          d.data.value +
-          " yrs"
-        );
+        return d.data.value + "yrs";
       });
     });
 }
+
 
 /// PIECHART 2
 
@@ -130,15 +128,12 @@ function show_wage(ndx) {
 function overall_vs_potential(ndx) {
   var overall_dim = ndx.dimension(dc.pluck("Name"));
   var overall = overall_dim.group().reduceSum(d => {
-    ("Overall", d.Overall);
     return d.Overall;
   });
   var potential = overall_dim.group().reduceSum(d => {
-    ("Potential", d.Potential);
     return d.Potential;
   });
-
-  (
+  console.log(
     overall_dim.top(Infinity).map(function(d) {
       return d.Name;
     })
@@ -150,14 +145,20 @@ function overall_vs_potential(ndx) {
     .width(990)
     .height(400)
     .x(d3.scale.ordinal())
-    .y(d3.scale.linear().domain([80, 100]))
+    .y(d3.scale.linear().domain([88, 100]))
     .xUnits(dc.units.ordinal)
-    .group(overall)
+    .group(potential)
     .dimension(overall_dim)
     .elasticX(true)
     .elasticY(false)
     .yAxisLabel("Overall vs Potential")
     .xAxisLabel("Player")
+    .margins({
+      top: 10,
+      right: 0,
+      bottom: 60,
+      left: 60
+    })
     .legend(
       dc
         .legend()
@@ -170,6 +171,10 @@ function overall_vs_potential(ndx) {
       return d.value;
     })
     .renderHorizontalGridLines(true)
+    .on("pretransition", function(chart) {
+      chart.selectAll(".chart-body").attr("transform", "translate(100, 10)");
+    })
+    .brushOn(false)
     .compose([
       dc
         .lineChart(compositeChart)
@@ -187,7 +192,8 @@ function overall_vs_potential(ndx) {
         .dashStyle([5, 5])
         .renderLabel(true)
     ])
-    .brushOn(false);
+
+    .renderHorizontalGridLines(true);
 }
 ///Stacked CHART
 
@@ -209,8 +215,8 @@ function show_stacked_chart(ndx) {
     .x(d3.scale.ordinal())
     .margins({
       top: 0,
-      right:0,
-      bottom: 0,
+      right: 0,
+      bottom: 20,
       left: 70
     })
     .xUnits(dc.units.ordinal)

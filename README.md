@@ -73,12 +73,7 @@ as this worked most effective for me.
      2. Match each colour to the ledgend
      3. To reset press Reset all button
      
-        Testing of chart
-        
-        1.
-        2. 
-        3.
-
+     
 # Credit # 
 To all the different webpages I got my code which are [Kaggle website](https://www.kaggle.com/datasets "Kaggle Dataset website")
 ,[CDNJS website](https://cdnjs.com/ "cdnjs webpage"), [google.com website](https://www.google.com/ "Google") and[bootswatch website](https://bootswatch.com/3/ "bootswatch")
