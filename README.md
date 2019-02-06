@@ -111,7 +111,7 @@ I also asked someone on slack to look at it for there advice.
      
 # Credit # 
 To all the different webpages I got my code which are [Kaggle website](https://www.kaggle.com/datasets "Kaggle Dataset website")
-,[CDNJS website](https://cdnjs.com/ "cdnjs webpage"), [google.com website](https://www.google.com/ "Google") and[bootswatch website](https://bootswatch.com/3/ "bootswatch")
+,[CDNJS website](https://cdnjs.com/ "cdnjs webpage"), [google.com website](https://www.google.com/ "Google") and [bootswatch website](https://bootswatch.com/3/ "bootswatch")
 
 
 # Acknowledgements #
