@@ -15,7 +15,7 @@ My Dashboard will be a 4 chart dashboard created with two pie charts, one bar ch
 
 * As a user type, I would like to create a dashboard to view a piechart. 
 * As a user type, I would like to create a chart to show the nationality of the football players for users to views on my dashboard. 
-* As a user type, I would like to achieve a goal of creating a linechart for users to access on my dashobard. 
+* As a user type, I would like to achieve a goal of creating a linechart for users to access on my dashboard. 
 
 
 My goal was to make information accessible on the site and user friendly, as shown through the charts I have created.
@@ -45,18 +45,18 @@ are well structured and simple but easy to use and find your way around so I wan
 *Technologies*
 
 Technologies I used for this project is: 
-[HTML](https://en.wikipedia.org/wiki/HTML)
-[javascript](https://en.wikipedia.org/wiki/JavaScript)
-[css](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-[bootswatch](https://bootswatch.com/3/journal/#buttons)
-[bootstrap](https://getbootstrap.com/docs/3.3/)
-[CDNJS](https://cdnjs.com/)
-[github](https://github.com/)
-[cloud9](https://c9.io/login)
-[Kaggle](https://www.kaggle.com/datasets)
-[crossfilter](https://cdnjs.com/libraries/crossfilter)
-[DC](https://cdnjs.com/libraries/dc)
-[D3](https://cdnjs.com/libraries/d3)
+* [HTML](https://en.wikipedia.org/wiki/HTML)
+* [javascript](https://en.wikipedia.org/wiki/JavaScript)
+* [css](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+* [bootswatch](https://bootswatch.com/3/journal/#buttons)
+* [bootstrap](https://getbootstrap.com/docs/3.3/)
+* [CDNJS](https://cdnjs.com/)
+* [github](https://github.com/)
+* [cloud9](https://c9.io/login)
+* [Kaggle](https://www.kaggle.com/datasets)
+* [crossfilter](https://cdnjs.com/libraries/crossfilter)
+* [DC](https://cdnjs.com/libraries/dc)
+* [D3](https://cdnjs.com/libraries/d3)
 
 # Deployment of my project #
 
@@ -113,7 +113,7 @@ To all the different webpages I got my code which are [Kaggle website](https://w
 
 
 # Acknowledgements #
- for this project I got inspiration from dashboards and also google images I googled on google.com for my colour scheme and background colour for my dashboard.
+ for this project I got inspiration from dashboards on google Images I googled on google.com and also for my colour scheme and background colour for my dashboard.
 
 
 
