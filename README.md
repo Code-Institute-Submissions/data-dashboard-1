@@ -43,7 +43,7 @@ I researched diffrent type of charts and dashboards to look at diffrent colour s
 are well structured and simple but easy to use and find your way around so I wanted mine to be user friendly. 
 
 
-*Technologies*
+ # Technologies #
 
 Technologies I used for this project is: 
 * [HTML](https://en.wikipedia.org/wiki/HTML)
