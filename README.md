@@ -58,6 +58,7 @@ Technologies I used for this project is:
 * [crossfilter](https://cdnjs.com/libraries/crossfilter)
 * [DC](https://cdnjs.com/libraries/dc)
 * [D3](https://cdnjs.com/libraries/d3)
+* [Formatter](https://www.freeformatter.com/html-validator.html)
 
 
 # Deployment of my project #
