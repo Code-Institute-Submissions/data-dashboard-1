@@ -1,157 +1,147 @@
-<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Data Analysis Of Fifa 19 Players</title>
-    <link rel="stylesheet" href="static/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="static/css/dc.min.css" type="text/css" />
-    <link rel="stylesheet" href="static/css/main.css" type="text/css" />
-    <script type="text/javascript" src="static/js/d3.min.js"></script>
-    <script type="text/javascript" src="static/js/crossfilter.min.js"></script>
-    <script type="text/javascript" src="static/js/dc.min.js"></script>
-    <script type="text/javascript" src="static/js/queue.min.js"></script>
-    <script type="text/javascript" src="static/js/graph.js"></script>
-</head>
-
-<body>
-    
-    <!----- navbar ------>
-    
-    <nav class="navbar navbar-light dashboard-title" style="background-color: #05ffb0;">
-        <center style="color:white ;">
-                Fifa 2019 10 Players Data Dashboard
-                <a href="#" class="btn btn-default pull-right reset-all"  onclick='location.reload();' value='Refresh Page'>Reset All</a>
-              </center>
-              </nav>
-    
-    <!----- graph.js charts ------>
-    
-    <main>
-        <!----- Pie chart 1------>
-        
-        <div class="container">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Data Analysis Of Fifa 19 Players</title>
+      <link rel="stylesheet" href="static/css/bootstrap.min.css" type="text/css" />
+      <link rel="stylesheet" href="static/css/dc.min.css" type="text/css" />
+      <link rel="stylesheet" href="static/css/main.css" type="text/css" />
+      <script type="text/javascript" src="static/js/d3.min.js"></script>
+      <script type="text/javascript" src="static/js/crossfilter.min.js"></script>
+      <script type="text/javascript" src="static/js/dc.min.js"></script>
+      <script type="text/javascript" src="static/js/queue.min.js"></script>
+      <script type="text/javascript" src="static/js/graph.js"></script>
+   </head>
+   
+   <body>
+       
+      <!----- navbar ------>
+      
+      
+      <nav class="navbar navbar-light dashboard-title" style="background-color: #05ffb0;">
+         <center style="color:white ;">
+            Fifa 2019 10 Players Data Dashboard
+            <a href="#" class="btn btn-default pull-right reset-all"  onclick='location.reload();' value='Refresh Page'>Reset All</a>
+         </center>
+      </nav>
+      
+      
+      <!----- graph.js charts ------>
+      
+      
+      <main>
+         <!----- Pie chart 1------>
+         
+         <div class="container">
             <div class="row">
-                
-                <div class="column center">
-                    <h2 class="section-heading col-xs-12 col-sm-12 text-center">
-                  Age
-               </h2>
-                    <div id="age-of-players" class="piechart">
-                    </div>
-                    
-                    <p style="position:relative">
-                        This is a pie chart designed to show the age diffrences between the 10 football players.
-                    </p>
-                </div>
-                
-                
-                <!----- Pie chart 2------>
-                
-                
-                <div class="column center">
-                    <h2 class="section-heading col-xs-12 col-sm-12 text-center">
-                  Position
-               </h2>
-                    <div id="position-of-player" class="piechart">
-                    </div>
-                    
-                    <p style="position:relative">
-                        This is a second chart to show where the positions on the field players play.
-                    </p>
-                </div>
+               <div class="column center">
+                  <h2 class="section-heading col-xs-12 col-sm-12 text-center">
+                     Age
+                  </h2>
+                  <div id="age-of-players" class="piechart">
+                  </div>
+                  <p style="position:relative">
+                     This is a pie chart designed to show the age diffrences between the 10 football players.
+                  </p>
+               </div>
+               
+               
+               <!----- Pie chart 2------>
+               
+               <div class="column center">
+                  <h2 class="section-heading col-xs-12 col-sm-12 text-center">
+                     Position
+                  </h2>
+                  <div id="position-of-player" class="piechart">
+                  </div>
+                  <p style="position:relative">
+                     This is a second chart to show where the positions on the field players play.
+                  </p>
+               </div>
             </div>
-        </div>
-        
-        
-        <!----- Bar chart------>
-        
-        
-          <section class="section center">
-            <div class="container">
-                <div class="row ">
-                    <div class="col-xs-12 col-sm-12 ">
-                        <div id="nationality">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <h4 class="section-heading text-center col-xs-12 col-sm-offset-2 col-sm-8">
-               This is a barchart created to show which nationality of football players 
-               </h4>
-            </div>
-        </div>
-        </section>
-        
-        
-        <!----- Line Chart ------>
-        
-        
+         </div>
+         
+         
+         <!----- Bar chart------>
+         
          <section class="section center">
             <div class="container">
-                <div class="row ">
-                    <div class="col-xs-12 col-sm-12">
-                        <div id="wage">
-                        </div>
-                    </div>
-                </div>
-                <h4 class="section-heading text-center col-xs-12 col-sm-offset-2 col-sm-8">
-               This Linechart show the wages between earnings.
-            </h4>
-            </div>
-        </section>
-        
-        
-        <!----- Composite Chart------>
-        
-        
-        <section class="section center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12">
-                        <div id="overall-vs-potential">
-                        </div>
-                    </div>
-                </div>
-                <h4 class="section-heading text-center col-xs-12 col-sm-offset-2 col-sm-8 text-center">
-               This chart is the overall and potential in the players included on the graph.
-            </h4>
-            </div>
-            </div>
-        </section>
-        
-        
-        <!----- Stacked Chart------>
-        
-        
-        <section class="section center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-offset-1 col-sm-10">
-                        <div id="stacked-chart">
-                        </div>
-                    </div>
-                </div>
-                <h4 class="section-heading text-center col-xs-12 col-sm-offset-2 col-sm-8">
-               In this chart is a yearly chart based on wage, value and wage of players.
+               <div class="row ">
+                  <div class="col-xs-12 col-sm-12 ">
+                     <div id="nationality">
+                     </div>
+                  </div>
                </div>
-            </h4>
+               <div class="container">
+                  <h4 class="section-heading text-center col-xs-12 col-sm-offset-2 col-sm-8">
+                     This is a barchart created to show which nationality of football players 
+                  </h4>
+               </div>
             </div>
-        </section>
-        
-        
-        
-        <!----- Footer ------>
-        
-        <footer class="footer text-center" style="background-color: #05ffb0;padding: 15px">
+         </section>
+         
+         
+         <!----- Line Chart ------>
+         
+         <section class="section center">
             <div class="container">
-                <p class="footer">
-                    <p class="center" style="color:white ;"> COPYRIGHT © 2019. ALL RIGHTS RESERVED.</p>
-                </p>
-         </div>
-        </footer>
-        </main>
-</body>
+               <div class="row ">
+                  <div class="col-xs-12 col-sm-12">
+                     <div id="wage">
+                     </div>
+                  </div>
+               </div>
+               <h4 class="section-heading text-center col-xs-12 col-sm-offset-2 col-sm-8">
+                  This Linechart show the wages between earnings.
+               </h4>
+            </div>
+         </section>
+         
+         
+         <!----- Composite Chart------>
+         
+         <section class="section center">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xs-12 col-sm-12">
+                     <div id="overall-vs-potential">
+                     </div>
+                  </div>
+               </div>
+               <h4 class="section-heading text-center col-xs-12 col-sm-offset-2 col-sm-8 text-center">
+                  This chart is the overall and potential in the players included on the graph.
+               </h4>
+            </div>
+         </section>
+         
+         
+         <!----- Stacked Chart------>
+         
+         <section class="section center">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xs-12 col-sm-offset-1 col-sm-10">
+                     <div id="stacked-chart">
+                     </div>
+                  </div>
+               </div>
+               <h4 class="section-heading text-center col-xs-12 col-sm-offset-2 col-sm-8">
+                  In this chart is a yearly chart based on wage, value and wage of players.
+               </h4>
+            </div>
+         </section>
+         
+         
+         <!----- Footer ------>
+         
+         <footer class="footer text-center" style="background-color: #05ffb0;padding: 15px">
+            <div class="container">
+               <div class="footer">
+                  <p class="center" style="color:white ;"> COPYRIGHT © 2019. ALL RIGHTS RESERVED.</p>
+               </div>
+            </div>
+         </footer>
+      </main>
+   </body>
 </html>
