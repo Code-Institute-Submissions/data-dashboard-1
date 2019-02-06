@@ -5,7 +5,7 @@ I have created a scroll page Dashboard included with assets such as piechart and
 is to create charts with information on avaliablity of viewing. 
 
 
-[This is the link to the live page](https://data-dashboard-noellebrowne.c9users.io/index.html).
+[This is the link to the live page](https://noellebrowne.github.io/data-dashboard/).
 
 # UX #
 
