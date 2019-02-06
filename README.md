@@ -46,7 +46,6 @@ are well structured and simple but easy to use and find your way around so I wan
 *Technologies*
 
 Technologies I used for this project is: 
-<<<<<<< HEAD
 * [HTML](https://en.wikipedia.org/wiki/HTML)
 * [javascript](https://en.wikipedia.org/wiki/JavaScript)
 * [css](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
@@ -59,21 +58,7 @@ Technologies I used for this project is:
 * [crossfilter](https://cdnjs.com/libraries/crossfilter)
 * [DC](https://cdnjs.com/libraries/dc)
 * [D3](https://cdnjs.com/libraries/d3)
-=======
-[HTML](https://en.wikipedia.org/wiki/HTML)
-[javascript](https://en.wikipedia.org/wiki/JavaScript)
-[css](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-[bootswatch](https://bootswatch.com/3/journal/#buttons)
-[bootstrap](https://getbootstrap.com/docs/3.3/)
-[CDNJS](https://cdnjs.com/)
-[github](https://github.com/)
-[cloud9](https://c9.io/login)
-[Kaggle](https://www.kaggle.com/datasets)
-[crossfilter](https://cdnjs.com/libraries/crossfilter)
-[DC](https://cdnjs.com/libraries/dc)
-[D3](https://cdnjs.com/libraries/d3)
 
->>>>>>> 61886bb6807b5a456eac2c88e52224dd616feb49
 
 # Deployment of my project #
 
